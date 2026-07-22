@@ -1,0 +1,1023 @@
+/*-- scss:defaults --*/
+
+// UA Brand Colors
+$ua-red: #AB0520;
+$ua-blue: #0C234B;
+$ua-chili: #8B0015;
+$ua-midnight: #001C48;
+$ua-azurite: #1E5288;
+$ua-oasis: #378DBD;
+$ua-bloom: #EF4056;
+$ua-sky: #81D3EB;
+$ua-leaf: #70B865;
+$ua-river: #007D84;
+$ua-mesa: #A95C42;
+$ua-warm-gray: #F4EDE5;
+$ua-cool-gray: #E2E9EB;
+$ua-white: #FFFFFF;
+
+// Theme overrides
+$body-color: #333333;
+$link-color: $ua-blue;
+
+/*-- scss:rules --*/
+
+// Import Adobe Fonts (Proxima Nova, Garamond Premier Pro)
+@import url('https://use.typekit.net/vem3yjd.css');
+
+// Typography
+body {
+  font-family: 'proxima-nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.7;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'proxima-nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: $ua-blue;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 700;
+  border-bottom: 3px solid $ua-red;
+  padding-bottom: 0.4em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  border-bottom: 2px solid $ua-cool-gray;
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+}
+
+h3 {
+  margin-top: 1.5em;
+  color: $ua-azurite;
+}
+
+// Links
+a {
+  color: $ua-blue;
+  text-decoration: none;
+
+  &:hover {
+    color: $ua-red;
+    text-decoration: underline;
+  }
+}
+
+// TOC styling
+.sidebar nav[role="doc-toc"] {
+  border-left: 3px solid $ua-blue;
+  padding-left: 1em;
+
+  a {
+    color: $ua-blue;
+
+    &:hover {
+      color: $ua-red;
+    }
+
+    &.active {
+      color: $ua-red;
+      font-weight: 600;
+    }
+  }
+}
+
+// Callout boxes with UA colors
+.callout {
+  border-radius: 8px;
+  margin: 1.5em 0;
+}
+
+.callout-note {
+  background: rgba($ua-azurite, 0.08);
+  border-left: 4px solid $ua-azurite;
+
+  .callout-title {
+    color: $ua-azurite;
+  }
+}
+
+.callout-tip {
+  background: rgba($ua-leaf, 0.08);
+  border-left: 4px solid $ua-leaf;
+
+  .callout-title {
+    color: darken($ua-leaf, 10%);
+  }
+}
+
+.callout-warning {
+  background: rgba($ua-mesa, 0.08);
+  border-left: 4px solid $ua-mesa;
+
+  .callout-title {
+    color: $ua-mesa;
+  }
+}
+
+.callout-important {
+  background: rgba($ua-red, 0.08);
+  border-left: 4px solid $ua-red;
+
+  .callout-title {
+    color: $ua-red;
+  }
+}
+
+.callout-caution {
+  background: rgba($ua-bloom, 0.08);
+  border-left: 4px solid $ua-bloom;
+
+  .callout-title {
+    color: darken($ua-bloom, 10%);
+  }
+}
+
+.callout-title {
+  font-weight: 600;
+}
+
+// Custom content classes
+.highlight-box {
+  background: $ua-cool-gray;
+  border-left: 4px solid $ua-blue;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0 8px 8px 0;
+  font-size: 1.05em;
+  line-height: 1.6;
+
+  strong {
+    color: $ua-blue;
+  }
+}
+
+.definition-box {
+  background: rgba($ua-oasis, 0.1);
+  padding: 1em 1.5em;
+  margin: 1em 0;
+  border-radius: 8px;
+  border-top: 3px solid $ua-oasis;
+
+  strong {
+    color: $ua-blue;
+  }
+}
+
+.practice-box {
+  background: #f8f9fa;
+  border-left: 4px solid $ua-azurite;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0 8px 8px 0;
+
+  strong {
+    color: $ua-azurite;
+  }
+
+  details {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid #ddd;
+
+    summary {
+      cursor: pointer;
+      color: $ua-blue;
+      font-weight: 600;
+
+      &:hover {
+        color: $ua-red;
+      }
+    }
+  }
+}
+
+// Margin notes
+.column-margin {
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.5;
+  padding: 0.5em;
+  background: rgba($ua-cool-gray, 0.5);
+  border-radius: 4px;
+  border-left: 2px solid $ua-oasis;
+}
+
+// Code blocks
+pre {
+  background: $ua-cool-gray;
+  border-radius: 8px;
+  border-left: 4px solid $ua-azurite;
+  padding: 1em;
+}
+
+code {
+  font-family: 'Fira Code', 'Monaco', 'Consolas', monospace;
+  font-size: 0.9em;
+}
+
+// Inline code
+p code, li code {
+  background: rgba($ua-azurite, 0.1);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  color: $ua-azurite;
+}
+
+// Tables
+table {
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  width: 100%;
+}
+
+thead {
+  background: $ua-blue;
+  color: $ua-white;
+
+  th {
+    padding: 0.75em 1em;
+    text-align: left;
+    font-weight: 600;
+  }
+}
+
+tbody {
+  tr {
+    border-bottom: 1px solid #ddd;
+
+    &:nth-child(even) {
+      background: rgba($ua-cool-gray, 0.3);
+    }
+
+    &:hover {
+      background: rgba($ua-blue, 0.05);
+    }
+  }
+
+  td {
+    padding: 0.75em 1em;
+  }
+}
+
+// Details/summary (collapsible sections)
+details {
+  margin: 1em 0;
+
+  summary {
+    cursor: pointer;
+    color: $ua-blue;
+    font-weight: 500;
+    padding: 0.5em 0;
+
+    &:hover {
+      color: $ua-red;
+    }
+
+    &::marker {
+      color: $ua-red;
+    }
+  }
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid $ua-red;
+  margin: 1.5em 0;
+  padding: 0.5em 1.5em;
+  background: rgba($ua-warm-gray, 0.3);
+  font-style: italic;
+  color: #555;
+
+  p {
+    margin: 0;
+  }
+}
+
+// Horizontal rules
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, $ua-blue, $ua-red);
+  margin: 2em 0;
+}
+
+// Lists
+ul, ol {
+  line-height: 1.8;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+// Title block styling
+.quarto-title-block {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 3px solid $ua-blue;
+
+  .title {
+    color: $ua-blue;
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+  }
+
+  .subtitle {
+    color: $ua-azurite;
+    font-size: 1.3em;
+    font-style: italic;
+  }
+
+  .author {
+    color: #555;
+    font-size: 1.1em;
+  }
+
+  .date {
+    color: #777;
+    font-size: 0.95em;
+  }
+}
+
+// Hero section for index page - hide empty title block header
+body:has(.hero-section) #title-block-header {
+  display: none !important;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, $ua-blue 0%, $ua-midnight 100%);
+  color: $ua-white;
+  padding: 2em 2em;
+  margin: 0 -1em 2em -1em;
+  border-radius: 12px;
+
+  h1 {
+    color: $ua-white;
+    border-bottom: 3px solid $ua-red;
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+}
+
+// Resources page - Reference entries
+.reference-entry {
+  background: $ua-white;
+  border: 1px solid rgba($ua-cool-gray, 0.8);
+  border-left: 4px solid $ua-azurite;
+  border-radius: 0 8px 8px 0;
+  padding: 1.25em 1.5em;
+  margin: 1.5em 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: $ua-blue;
+    font-size: 1.15em;
+  }
+
+  p {
+    margin-bottom: 0.75em;
+    color: #444;
+  }
+
+  a {
+    color: $ua-azurite;
+    font-weight: 500;
+
+    &:hover {
+      color: $ua-red;
+    }
+  }
+}
+
+.reference-annotation {
+  background: rgba($ua-cool-gray, 0.4);
+  padding: 0.75em 1em;
+  border-radius: 6px;
+  margin: 0.75em 0;
+  font-size: 0.95em;
+  line-height: 1.6;
+
+  strong {
+    color: $ua-blue;
+  }
+}
+
+.reference-type-badge {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.5em;
+
+  &.empirical {
+    background: rgba($ua-leaf, 0.15);
+    color: darken($ua-leaf, 15%);
+  }
+
+  &.theoretical {
+    background: rgba($ua-oasis, 0.15);
+    color: darken($ua-oasis, 15%);
+  }
+
+  &.framework {
+    background: rgba($ua-azurite, 0.15);
+    color: $ua-azurite;
+  }
+
+  &.official {
+    background: rgba($ua-red, 0.1);
+    color: $ua-red;
+  }
+}
+
+// Lord icon sizing
+.page-header-icon {
+  lord-icon {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+// Homepage card grid items
+.material-card {
+  background: $ua-white;
+  border: 1px solid rgba($ua-cool-gray, 0.8);
+  border-top: 3px solid $ua-azurite;
+  border-radius: 0 0 8px 8px;
+  padding: 1.25em 1.5em;
+  height: 100%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  h3 {
+    margin-top: 0;
+    color: $ua-blue;
+    font-size: 1.15em;
+  }
+
+  p {
+    color: #444;
+    margin-bottom: 0.75em;
+  }
+
+  a {
+    color: $ua-azurite;
+    font-weight: 500;
+
+    &:hover {
+      color: $ua-red;
+    }
+  }
+}
+
+// Download banner styling
+.download-banner {
+  background: linear-gradient(135deg, $ua-azurite 0%, $ua-blue 100%);
+  color: $ua-white;
+  padding: 1.5em 2em;
+  border-radius: 8px;
+  text-align: center;
+  margin: 2em 0;
+
+  p {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+  }
+
+  a {
+    display: inline-block;
+    background: $ua-white;
+    color: $ua-blue;
+    padding: 0.6em 1.5em;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      color: $ua-red;
+    }
+  }
+}
+
+// Section accent bar
+.section-accent {
+  border-left: 4px solid $ua-red;
+  padding-left: 1em;
+  margin: 2em 0;
+}
+
+// Audience cards
+.audience-card {
+  background: rgba($ua-cool-gray, 0.3);
+  border-radius: 8px;
+  padding: 1.25em 1.5em;
+  margin: 1em 0;
+
+  h3 {
+    color: $ua-blue;
+    margin-top: 0;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid $ua-red;
+  }
+}
+
+// Print styles
+@media print {
+  .sidebar {
+    display: none;
+  }
+
+  body {
+    font-size: 11pt;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  .callout, .highlight-box, .definition-box, .practice-box {
+    page-break-inside: avoid;
+  }
+}
+
+// ============================================================
+// CyberAI Educator Workshop 2026 — additions
+// ============================================================
+
+// Stats bar under the hero
+.stats-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 0 0 2.5em 0;
+
+  .stat {
+    flex: 1 1 140px;
+    background: $ua-white;
+    border: 1px solid rgba($ua-cool-gray, 0.9);
+    border-top: 3px solid $ua-red;
+    border-radius: 0 0 8px 8px;
+    padding: 1em 1.25em;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+
+    .stat-number {
+      display: block;
+      font-size: 2em;
+      font-weight: 700;
+      color: $ua-blue;
+      line-height: 1.1;
+    }
+
+    .stat-label {
+      display: block;
+      font-size: 0.85em;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #666;
+      margin-top: 0.3em;
+    }
+  }
+}
+
+// Day heading with a coloured rule
+.day-heading {
+  background: linear-gradient(135deg, $ua-azurite 0%, $ua-blue 100%);
+  color: $ua-white;
+  padding: 0.9em 1.25em;
+  border-radius: 8px;
+  margin: 2.5em 0 1em 0;
+
+  h2 {
+    color: $ua-white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em;
+  }
+
+  .day-date {
+    display: block;
+    font-size: 0.9em;
+    opacity: 0.85;
+    margin-top: 0.2em;
+  }
+}
+
+// Schedule tables
+.schedule table {
+  font-size: 0.95em;
+
+  td:first-child {
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    color: $ua-blue;
+    width: 1%;
+  }
+}
+
+// Break rows read as scaffolding, not sessions
+.schedule tbody tr.break-row {
+  background: rgba($ua-warm-gray, 0.55) !important;
+  color: #777;
+  font-style: italic;
+
+  td:first-child { color: #999; font-weight: 500; }
+}
+
+// Materials status pills
+.pill {
+  display: inline-block;
+  padding: 0.15em 0.6em;
+  border-radius: 999px;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+
+  &.pill-ready {
+    background: rgba($ua-leaf, 0.18);
+    color: darken($ua-leaf, 22%);
+  }
+
+  &.pill-pending {
+    background: rgba($ua-cool-gray, 0.9);
+    color: #777;
+  }
+}
+
+// Presenter cards
+.presenter-card {
+  background: $ua-white;
+  border: 1px solid rgba($ua-cool-gray, 0.8);
+  border-left: 4px solid $ua-azurite;
+  border-radius: 0 8px 8px 0;
+  padding: 1em 1.25em;
+  height: 100%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    font-size: 1.05em;
+    color: $ua-blue;
+  }
+
+  .presenter-affil {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0;
+  }
+}
+
+// Editorial note — visible in draft, removed before circulation
+.draft-note {
+  background: rgba($ua-bloom, 0.09);
+  border: 1px dashed $ua-bloom;
+  border-radius: 8px;
+  padding: 1em 1.25em;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+
+  strong { color: darken($ua-bloom, 12%); }
+}
+
+// ============================================================
+// Schedule timeline — replaces the flat tables (2026-07-22)
+// Duration is the visual weight; breaks recede; a materials link
+// appears only when materials exist.
+// ============================================================
+
+.tl {
+  margin: 1.5em 0 2.5em 0;
+}
+
+.tl-row {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 1.1em;
+  align-items: stretch;
+  margin-bottom: 0.55em;
+
+  @media (max-width: 575px) {
+    grid-template-columns: 1fr;
+    gap: 0.3em;
+  }
+}
+
+.tl-when {
+  text-align: right;
+  padding-top: 0.85em;
+  border-right: 2px solid rgba($ua-cool-gray, 0.9);
+  padding-right: 0.9em;
+
+  @media (max-width: 575px) {
+    text-align: left;
+    border-right: none;
+    padding: 0 0 0 0.1em;
+  }
+}
+
+.tl-time {
+  display: block;
+  font-weight: 700;
+  color: $ua-blue;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.02em;
+  line-height: 1.2;
+}
+
+.tl-dur {
+  display: block;
+  font-size: 0.78em;
+  color: #8a8a8a;
+  margin-top: 0.15em;
+}
+
+.tl-card {
+  background: $ua-white;
+  border: 1px solid rgba($ua-cool-gray, 0.85);
+  border-left: 4px solid $ua-azurite;
+  border-radius: 0 8px 8px 0;
+  padding: 0.85em 1.15em 0.9em 1.15em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.045);
+
+  h3 {
+    margin: 0.1em 0 0.15em 0;
+    font-size: 1.08em;
+    color: $ua-blue;
+    line-height: 1.35;
+  }
+}
+
+// Sessions the agenda explicitly names a format for get a distinct spine
+.tl-card.is-panel    { border-left-color: $ua-oasis; }
+.tl-card.is-handson  { border-left-color: $ua-red; }
+.tl-card.is-overview { border-left-color: #b9c2c9; }
+
+.tl-num {
+  display: inline-block;
+  min-width: 1.5em;
+  font-size: 0.78em;
+  font-weight: 700;
+  color: #9aa4ad;
+  letter-spacing: 0.04em;
+}
+
+.tl-type {
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  padding: 0.16em 0.55em;
+  border-radius: 3px;
+  vertical-align: 0.1em;
+
+  &.t-panel    { background: rgba($ua-oasis, 0.16); color: darken($ua-oasis, 18%); }
+  &.t-handson  { background: rgba($ua-red, 0.1);    color: $ua-red; }
+  &.t-overview { background: rgba($ua-cool-gray, 0.85); color: #6b7580; }
+}
+
+.tl-gloss {
+  margin: 0.3em 0 0 0;
+  font-size: 0.9em;
+  color: #5d6570;
+  line-height: 1.5;
+}
+
+.tl-who {
+  margin: 0.55em 0 0 0;
+  font-size: 0.87em;
+  color: #333;
+  font-weight: 600;
+}
+
+.tl-materials {
+  margin: 0.4em 0 0 0;
+  font-size: 0.87em;
+}
+
+// Breaks and meals: structural, not sessions. Deliberately recessive.
+.tl-gap {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 1.1em;
+  align-items: center;
+  margin: 0.15em 0 0.6em 0;
+  font-size: 0.82em;
+  color: #9aa4ad;
+
+  .tl-gap-time {
+    text-align: right;
+    padding-right: 0.9em;
+    border-right: 2px solid rgba($ua-cool-gray, 0.9);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tl-gap-label {
+    letter-spacing: 0.04em;
+  }
+
+  @media (max-width: 575px) {
+    grid-template-columns: 1fr;
+    gap: 0.1em;
+    .tl-gap-time { text-align: left; border-right: none; padding: 0; }
+  }
+}
+
+.tl-gap.is-meal {
+  color: #6b7580;
+  font-weight: 600;
+
+  .tl-gap-label::before {
+    content: "";
+    display: inline-block;
+    width: 2.2em;
+    border-top: 1px solid rgba($ua-cool-gray, 1);
+    vertical-align: 0.3em;
+    margin-right: 0.6em;
+  }
+}
+
+// The day's shape, one line under the heading
+.day-shape {
+  margin: -0.4em 0 1.2em 0;
+  color: #5d6570;
+  font-size: 0.95em;
+  line-height: 1.55;
+}
+
+// ============================================================
+// Presenters, practical info, colophon (2026-07-22)
+// ============================================================
+
+// "Session 3" reads better than a bare numeral
+.tl-num {
+  min-width: 0;
+  margin-right: 0.5em;
+}
+
+// Facilitator names link to their card
+.tl-who a {
+  color: $ua-azurite;
+  border-bottom: 1px solid rgba($ua-azurite, 0.3);
+
+  &:hover { color: $ua-red; border-bottom-color: rgba($ua-red, 0.5); }
+}
+
+// --- Presenter cards: portrait + text ---
+.presenter-card {
+  display: grid;
+  grid-template-columns: 78px 1fr;
+  gap: 1.1em;
+  align-items: start;
+
+  @media (max-width: 400px) {
+    grid-template-columns: 1fr;
+    gap: 0.7em;
+  }
+}
+
+.presenter-portrait {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(135deg, $ua-azurite 0%, $ua-blue 100%);
+  color: $ua-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.55em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  flex: none;
+  border: 3px solid $ua-white;
+  box-shadow: 0 0 0 1px rgba($ua-cool-gray, 1);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.presenter-body {
+  min-width: 0;
+
+  h3 { margin-top: 0; margin-bottom: 0.2em; }
+
+  p { margin-bottom: 0.45em; }
+}
+
+.presenter-role {
+  font-size: 0.92em;
+  color: #5d6570;
+  line-height: 1.5;
+}
+
+.presenter-sessions {
+  font-size: 0.85em;
+  color: #333;
+  margin-top: 0.5em !important;
+
+  .ps-label {
+    display: block;
+    font-size: 0.82em;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #8a8a8a;
+    margin-bottom: 0.15em;
+  }
+}
+
+.presenter-contact {
+  font-size: 0.85em;
+  margin-top: 0.5em !important;
+}
+
+// --- Practical information: a fact list, not four identical boxes ---
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1px;
+  background: rgba($ua-cool-gray, 0.9);
+  border: 1px solid rgba($ua-cool-gray, 0.9);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1.5em 0;
+}
+
+.fact {
+  background: $ua-white;
+  padding: 1.05em 1.25em;
+
+  .fact-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 0.78em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: $ua-azurite;
+    margin-bottom: 0.4em;
+  }
+
+  p { margin: 0; font-size: 0.94em; line-height: 1.55; color: #333; }
+
+  p + p { margin-top: 0.4em; }
+
+  .bi { font-size: 1.05em; }
+}
+
+// --- Colophon ---
+.colophon {
+  background: rgba($ua-cool-gray, 0.35);
+  border-radius: 8px;
+  padding: 1.4em 1.6em;
+  margin: 2em 0 1em 0;
+  font-size: 0.94em;
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.02em;
+    color: $ua-blue;
+  }
+
+  p { line-height: 1.6; }
+
+  p:last-child { margin-bottom: 0; }
+}
+
+.colophon-meta {
+  font-size: 0.86em;
+  color: #6b7580;
+  border-top: 1px solid rgba($ua-cool-gray, 1);
+  padding-top: 0.8em;
+  margin-top: 1em;
+}

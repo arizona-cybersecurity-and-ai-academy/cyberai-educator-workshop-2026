@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - assets/**
+    - .nojekyll
+
+website:
+  title: "CyberAI Educator Workshop"
+  description: "Two-day professional development for educators — CORE Center at UA Little Rock, 29–30 July 2026"
+  favicon: assets/favicon.png
+  # PROVISIONAL. This is the default GitHub Pages URL for this org + repo. It is what makes
+  # the open-graph card resolve to an absolute URL for link previews. Change it if the site
+  # is published anywhere else (a ualr.edu or arizona.edu host, for instance).
+  site-url: https://arizona-cybersecurity-and-ai-academy.github.io/cyberai-educator-workshop-2026
+
+  open-graph:
+    locale: en_US
+    site-name: "CyberAI Educator Workshop 2026"
+    image: assets/og-card.png
+    image-alt: "Arizona Cybersecurity Academy logo"
+
+  navbar:
+    background: "#0C234B"
+    foreground: white
+    left:
+      - text: Overview
+        href: index.qmd#overview
+      - text: Day 1
+        href: index.qmd#day-1
+      - text: Day 2
+        href: index.qmd#day-2
+      - text: Presenters
+        href: index.qmd#presenters
+      - text: Practical
+        href: index.qmd#practical
+    right:
+      - text: "Take-away resources"
+        href: resources/ai-disclosure.qmd
+
+  page-footer:
+    background: "#0C234B"
+    foreground: white
+    center: |
+      CyberAI Educator Workshop · CORE Center at UA Little Rock · 29–30 July 2026
+
+format:
+  html:
+    theme:
+      - cosmo
+      - ua-style.scss
+    toc: false
+    anchor-sections: true
+    smooth-scroll: true
+    code-copy: true

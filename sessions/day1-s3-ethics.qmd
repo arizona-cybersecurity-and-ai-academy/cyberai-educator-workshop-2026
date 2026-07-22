@@ -1,0 +1,56 @@
+---
+title: "AI Ethics, Bias & Academic Integrity"
+subtitle: "Day 1, Session 3 · 10:40-11:25 · 45 minutes"
+author: "Ryan Straight"
+toc: true
+---
+
+::: {.draft-note}
+**Stub.** Structure only; Ryan writes the content. Not linked from the schedule yet. The
+"to come" pill on Session 3 becomes a link once there is something here worth reading.
+:::
+
+## What this session covers
+
+*tktk — one short paragraph a participant reads before deciding what to bring to it.*
+
+This session covers the limits of plagiarism detection, equity concerns, and how to write
+a responsible-use policy for your own classroom.
+
+## Session outline
+
+| Time | Segment |
+|-----:|:--------|
+| ~10 min | *tktk* |
+| ~20 min | *tktk* |
+| ~15 min | *tktk* |
+
+## Key points
+
+- *tktk*
+
+## The detection problem
+
+*tktk — the evidence on AI-detection tools, false-positive rates, and who bears the cost of
+being wrongly flagged. This is the part teachers most often get bad information about.*
+
+## Equity
+
+*tktk — access differences, language background, disability accommodation, and how
+detection-based policy lands unevenly.*
+
+## Writing a responsible-use policy
+
+*tktk — the practical takeaway. A teacher should leave able to draft or revise a policy for
+their own classroom.*
+
+::: {.callout-tip}
+## Takeaway
+
+*tktk — the one thing participants should carry out of the room.*
+:::
+
+## Resources
+
+*tktk — readings, policy templates, and links. Prefer permanent URLs and DOIs; no link
+shorteners.*

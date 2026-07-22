@@ -1,0 +1,28 @@
+---
+title: "SESSION TITLE"
+subtitle: "Day N, Session N · TIME · N minutes"
+author: "PRESENTER"
+toc: true
+---
+
+<!-- Template. The leading underscore keeps Quarto from rendering this file.
+     To add a session page: copy to sessions/dayN-sN-slug.qmd, fill it in, then
+     replace that session's "to come" pill in index.qmd with a link to it. -->
+
+## What this session covers
+
+One short paragraph a participant reads before the session.
+
+## Session outline
+
+| Time | Segment |
+|-----:|:--------|
+| ~N min | |
+
+## Key points
+
+-
+
+## Resources
+
+Permanent URLs and DOIs only — no link shorteners.
