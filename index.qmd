@@ -31,10 +31,13 @@ are putting them to work.
 :::
 
 ::: {.draft-note}
-**Draft — not yet circulated.** Sessions gain a materials link once a presenter supplies
-something; until then they simply don't have one. Two items need confirming before this goes
-out: the Day 1 afternoon timings (see the note under that schedule) and the presenters marked
-*tktk*.
+**Preview for presenters, not yet for participants.** This is here so Paul, Rob, Sandra and
+Kyle can see the shape of it and fill the gaps. Anything marked *tktk* is a question waiting
+on someone — mostly presenter names for Day 1, and the venue details. Sessions gain a
+materials link once a presenter supplies something. Two things need a decision rather than
+just information: the Day 1 afternoon timings (see the note under that schedule), which don't
+currently add up, and whether the closing discussion needs a feedback form on the site.
+Send anything to [ryanstraight@arizona.edu](mailto:ryanstraight@arizona.edu).
 :::
 
 ## Overview {#overview}
