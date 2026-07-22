@@ -1,0 +1,60 @@
+name: Render and publish
+
+# Renders the Quarto site and publishes it to the gh-pages branch.
+#
+# Why this exists: without it, editing a .qmd through the GitHub web interface
+# changes the source and leaves the published site untouched, so the site quietly
+# disagrees with the repo and nothing surfaces the difference. This makes the
+# published site a function of the source rather than of whoever last remembered
+# to render locally.
+#
+# Contributors do not need Quarto installed. Edit a .qmd, commit, done.
+
+on:
+  push:
+    branches: [main]
+    # Rendered output and repo docs don't need to trigger a rebuild.
+    paths-ignore:
+      - 'README.md'
+      - '.gitignore'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render
+        run: quarto render
+
+      - name: Report unresolved editorial markers
+        # Not a failure. The site is meant to carry tktk markers while it is a
+        # preview; this just prints the count so it is visible in the run log and
+        # nobody has to guess whether the drafting notes are still in there.
+        run: |
+          count=$(grep -ro 'tktk' --include='*.html' docs/ | wc -l)
+          echo "::notice title=Editorial markers::${count} tktk markers still in the rendered site"
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          # Quarto emits .nojekyll already, but be explicit: the site uses
+          # underscore-prefixed asset directories that Jekyll would otherwise skip.
+          enable_jekyll: false
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Publish site from ${{ github.sha }}'
