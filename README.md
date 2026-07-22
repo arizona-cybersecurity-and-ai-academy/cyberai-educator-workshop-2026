@@ -17,11 +17,16 @@ quarto render     # outputs to docs/
 quarto preview    # local preview with live reload
 ```
 
-Output goes to `docs/` and is committed, so the site can be served from GitHub Pages when
-the organizers are ready to publish it. Pages is not enabled yet.
+**You do not need to render to publish.** Pushing to `main` triggers the workflow in
+`.github/workflows/publish.yml`, which renders the site and publishes it to the `gh-pages`
+branch. GitHub Pages serves from there. Editing a `.qmd` in the GitHub web interface is
+enough — no local setup required.
 
-`site-url` in `_quarto.yml` is set to the default Pages URL for this repo. It makes
-link-preview cards resolve correctly. Change it if the site is published on another host.
+Rendered output is not committed. `docs/` is gitignored and built in CI, so the published
+site always matches the source rather than matching whoever last remembered to render.
+
+`site-url` in `_quarto.yml` sets the published address, which is what makes link-preview
+cards resolve. Change it if the site moves to another host.
 
 ## Layout
 
@@ -32,7 +37,6 @@ sessions/                    per-session pages
 resources/ai-disclosure.qmd  take-away disclosure statements for participants
 ua-style.scss                University of Arizona styling
 assets/                      favicon and link-preview card
-docs/                        rendered output, committed
 ```
 
 ## Adding a session page

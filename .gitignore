@@ -6,4 +6,5 @@
 # internal working notes -- never push
 _internal/
 
-**/*.quarto_ipynb
+# rendered output: built in CI and published to gh-pages, not committed
+docs/
