@@ -1,0 +1,106 @@
+---
+title: "AI Foundations: What Teachers Need to Know"
+subtitle: "Day 1, Session 2 · 9:30-10:30 · 60 minutes"
+author: "Ryan Straight and Kyle Cronin"
+toc: true
+---
+
+## What this session covers
+
+The rest of the workshop assumes you know what these tools actually are, so this is the
+hour that puts that in place. What a large language model does mechanically, why that
+explains both what it's good at and how it fails, and which of the things people commonly
+believe about them are wrong.
+
+You don't need a technical background for any of this. The goal is that by the end of the
+hour you can predict, before you try it, whether a given classroom task is one these tools
+will handle well.
+
+## Session outline
+
+| Time | Segment |
+|-----:|:--------|
+| ~15 min | What a language model actually does |
+| ~25 min | Where it's strong, where it fails, and why those are the same fact |
+| ~20 min | Common misconceptions, and questions |
+
+## Key points
+
+- A language model predicts likely next words. Everything it does well and everything it
+  gets wrong follows from that one fact.
+- Fluency and accuracy are separate properties. Confident, well-formed, and wrong is the
+  normal failure, not an unusual one.
+- The reliable rule of thumb: these tools are strong when you supply the content and ask
+  them to change its form, and weak when you ask them to supply the content.
+- Most of what people believe about how these tools learn, remember, and search is wrong in
+  ways that matter for classroom use.
+
+## What a language model actually does
+
+A large language model is a system that has been trained to predict what word comes next,
+across an enormous amount of text. That's the whole mechanism. Everything else, the
+conversation, the essay, the lesson plan, is that prediction running over and over.
+
+Be blunt about what that rules out. The model isn't looking anything up. It has no database
+it consults and no notion of a source. When it
+produces a citation, it's producing the sequence of words a citation tends to look like. That
+sequence is sometimes a real paper and sometimes isn't, and the model has no way to tell the
+difference, because from the inside there's no difference.
+
+This is also why the output is so fluent. Fluency is what the training optimizes
+for. Accuracy comes along for the ride when the training text happened to be accurate and
+consistent, and it doesn't when the text was thin, contested, or absent.
+
+## Where it's strong, where it fails
+
+### Strong: you supply the content, it changes the form
+
+Summarizing a document you paste in. Rewriting your paragraph at a sixth-grade reading
+level. Turning your rubric into a student-facing checklist. Translating your worksheet.
+Reformatting your notes into slides. Explaining your own text back to you in different
+terms.
+
+In all of these the substance is already in front of the model. It isn't being asked to
+know anything, only to restate. That's the task the mechanism is good at, and it's most
+of what a teacher needs.
+
+### Weak: you ask it to supply the content
+
+Facts it has to recall. Citations. Anything numeric. Recent events. Anything where being
+almost right is the same as being wrong.
+
+This is the failure that catches people. The model doesn't know when it doesn't know. It has no internal signal for the difference
+between a well-supported answer and a fabricated one, so it delivers both in the same
+confident register. A human expert hedges when they're unsure. This won't.
+
+### The rule of thumb
+
+Before you use one of these tools for something, ask where the content is coming from. If
+it's coming from you and the tool is changing its shape, you're on solid ground. If it's
+coming from the tool, you have to check it, and checking it often costs more than doing it
+yourself would have.
+
+That single question predicts most of what you'll experience in Sessions 4, 5 and 6.
+
+## Common misconceptions
+
+**"It searches the internet."** Usually not. Unless a tool explicitly says it's browsing or
+retrieving, it's generating from training, and the training has a cutoff date.
+
+**"It learns from our conversation."** Not in the way people mean. Some products have a
+memory feature that saves notes about you, but a plain chat doesn't change the model.
+Nothing your students type is teaching it.
+
+**"It'll get the math right, it's a computer."** It's a language model, not a calculator.
+Arithmetic is a sequence-prediction problem to it, and it approximates.
+
+**"It can tell you whether something was AI-written."** It can't, and it will confidently
+say yes or no when asked. More on this in Session 3.
+
+**"It understands what it's saying."** Set this one aside rather than argue it. For
+classroom purposes the question doesn't need answering, because the behavior is the same
+either way, and the behavior is what you're planning around.
+
+## Resources
+
+*Kyle and I will add a short reading list here before the workshop.*

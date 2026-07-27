@@ -8,3 +8,5 @@ _internal/
 
 # rendered output: built in CI and published to gh-pages, not committed
 docs/
+
+**/*.quarto_ipynb

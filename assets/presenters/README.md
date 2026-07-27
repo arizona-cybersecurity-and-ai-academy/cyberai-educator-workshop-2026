@@ -1,7 +1,7 @@
 # Presenter portraits
 
-Square JPEGs, displayed as 78px circles. Anything from about 300px up is plenty;
-faces should be roughly centered.
+Square JPEGs, displayed as 78px circles. Anything from about 300px up is plenty, and faces
+should be roughly centered.
 
 Filenames are lowercase surname:
 

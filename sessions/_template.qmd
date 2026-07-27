@@ -25,4 +25,8 @@ One short paragraph a participant reads before the session.
 
 ## Resources
 
-Permanent URLs and DOIs only — no link shorteners.
+Permanent URLs and DOIs only. No link shorteners.
+
+<!-- House style: no em-dashes or en-dashes, and no semicolons. Use commas,
+     periods, or parentheses. Contractions by default. -->
+

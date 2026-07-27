@@ -5,16 +5,11 @@ toc: true
 toc-title: "Jump to"
 ---
 
-::: {.draft-note}
-**Draft.** Needs a pass against UA's GenAI three-tier disclosure framework before this goes
-out, so the language lines up with what Arizona already asks for. *tktk*
-:::
-
 Most AI policies fail the same way. They're written once, buried in a syllabus, and phrased
 so broadly that nobody, including the teacher, can say whether a given use was allowed.
 
-The fix isn't a longer policy. It's a specific one, stated where students will actually run
-into it, and a habit of saying what you used yourself.
+What helps is a specific policy, stated where students will actually run into it, plus the
+habit of saying what you used yourself. Length has nothing to do with it.
 
 Everything below is meant to be lifted and edited. Nothing here is legal advice or your
 district's policy, and where the two conflict, your district wins.
@@ -140,6 +135,15 @@ Policies that hold up are built on process instead: drafts, in-class writing, co
 about the work, and disclosure norms that make honesty the easy path.
 
 *This gets covered in more depth in Day 1, Session 3.*
+
+## This page, disclosed
+
+Practising what the section above asks for.
+
+This page and the rest of this site were drafted with AI assistance (Claude). Ryan Straight
+set the structure, supplied the source agenda, directed the writing, and reviewed and edited
+all of it. He's responsible for its accuracy. AI was not used to make any decision about a
+participant, and it isn't used anywhere in the workshop's research component.
 
 ## Adapting these
 

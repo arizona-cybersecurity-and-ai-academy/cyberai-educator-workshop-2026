@@ -1,0 +1,99 @@
+---
+title: "Lesson Planning, Content Creation, Feedback and Grading"
+subtitle: "Day 1, Session 4 · 12:45-1:45 · 60 minutes"
+author: "Rob Honomichl, Sandra Leiterman and Ryan Straight"
+toc: true
+---
+
+## What this session covers
+
+The practical hour. Building lesson materials, differentiating them, and drafting feedback,
+using AI for the parts of that work where it's reliable.
+
+This is the session where Session 2's rule of thumb earns its keep. Nearly everything a
+teacher wants help with here is a task where you already have the content and you need it
+in a different shape: a rubric turned into student-facing language, a reading leveled for
+three different groups, a worksheet built from a text you chose, feedback drafted against
+work a student handed you. That's the side of the line where these tools are strong.
+
+Bring something real to work on. A unit you're teaching this fall, a rubric you're not
+happy with, a worksheet you'd like three versions of.
+
+## Session outline
+
+| Time | Segment |
+|-----:|:--------|
+| ~20 min | Planning and content creation, worked live |
+| ~20 min | Differentiation and accessibility of materials |
+| ~20 min | Feedback and grading, and where the limits are |
+
+## Key points
+
+- The tasks to hand over are the ones where you supply the substance and the tool
+  changes the form. Ask where the content is coming from before you start.
+- Differentiation is the strongest case in the whole workshop. Producing four versions of
+  one reading at four levels is work teachers rarely have time to do by hand.
+- Feedback drafting is real help. Grading isn't the same task, and the difference matters
+  both practically and ethically.
+- Whatever comes out has your name on it. Check it before it reaches a student.
+
+## Planning and content creation
+
+The reliable pattern is to give the tool your material and ask for a transformation of it.
+Your unit objectives into a lesson sequence. Your chosen text into comprehension questions.
+Your rubric into a checklist a fourteen-year-old can actually use. Your slide notes into a
+handout.
+
+The pattern that disappoints people is asking for the substance itself. "Write me a lesson
+on the water cycle" produces something generic that you then rewrite, and the rewriting
+costs about what writing it would have. "Here is my lesson on the water cycle, give me
+three exit-ticket questions at different difficulty levels" produces something you can use.
+
+Both look like reasonable requests. The second one works because you brought the content.
+
+## Differentiation and accessibility
+
+This is the strongest case in the workshop.
+
+Producing the same reading at three levels, with a vocabulary list for the students who
+need one, and a version that works with a screen reader, is valuable and
+time-consuming. Most teachers do a fraction of it, not because they don't want to
+but because the day doesn't contain the hours. This is transformation work of the
+kind these tools handle well, and the source text is yours.
+
+::: {.callout-caution}
+## Two Cautions
+
+Leveling a text changes it. Check that what came back still says what the original said,
+particularly with anything technical or historical, because simplification quietly drops
+qualifiers.
+
+And a simplified text isn't the same thing as an accommodation. An IEP specifies
+particular supports, and the fact that a tool can produce something adjacent to one doesn't
+mean it satisfies it.
+:::
+
+## Feedback and grading
+
+These are different tasks carrying different risks.
+
+### Drafting feedback
+
+This one's a good use. You've read the work, you know what you want to say, and you want it
+written out warmly and at length for thirty students. Give the tool the student's work and
+the points you want made, then edit what comes back. The judgment stayed with you.
+
+### Assigning a grade
+
+Different thing entirely. A score is a decision about a student, and these tools produce
+plausible-looking scores with no consistency between runs and no defensible account of how
+they got there. If a parent asks why their child got a 74, "the
+model said so" isn't an answer any of us wants to give.
+
+There's also a straightforward privacy question. Pasting student work into a commercial tool
+sends it to a third party, and depending on your district and what's identifiable in it,
+that might not be something you're permitted to do. Check before, not after.
+
+## Resources
+
+*To be added before the workshop.*

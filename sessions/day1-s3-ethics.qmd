@@ -5,52 +5,205 @@ author: "Ryan Straight"
 toc: true
 ---
 
-::: {.draft-note}
-**Stub.** Structure only; Ryan writes the content. Not linked from the schedule yet. The
-"to come" pill on Session 3 becomes a link once there is something here worth reading.
-:::
-
 ## What this session covers
 
-*tktk — one short paragraph a participant reads before deciding what to bring to it.*
+Most schools responded to generative AI by buying a detector and writing a policy that
+points at it. This session argues that both halves of that response are weaker than they
+look, and that the second one can be fixed. We'll work through what detection tools
+actually measure, who gets caught by them and who doesn't, and how to write a
+responsible-use policy that survives contact with a real classroom.
 
-This session covers the limits of plagiarism detection, equity concerns, and how to write
-a responsible-use policy for your own classroom.
+Bring a policy if you have one (your school's, your department's, or your own syllabus
+language). You'll get time to mark it up.
 
 ## Session outline
 
 | Time | Segment |
 |-----:|:--------|
-| ~10 min | *tktk* |
-| ~20 min | *tktk* |
-| ~15 min | *tktk* |
+| ~10 min | What detection tools actually do |
+| ~20 min | Who false positives land on |
+| ~15 min | Writing a policy you can defend |
 
 ## Key points
 
-- *tktk*
+- Detection tools don't detect AI. They estimate how statistically unsurprising a piece of
+  writing is, which is a different thing.
+- Tested against a 2015 dissertation and a paragraph written by a language model this
+  month, a commercial detector called both of them human.
+- Where these tools do err, the errors have historically fallen hardest on the students
+  least able to absorb the cost of being wrongly accused.
+- A policy that makes detector output the evidence has outsourced an academic-integrity
+  judgment to a vendor.
+- What holds up is writing permitted use into the assignment, in terms of what the
+  assignment is trying to teach.
 
 ## The detection problem
 
-*tktk — the evidence on AI-detection tools, false-positive rates, and who bears the cost of
-being wrongly flagged. This is the part teachers most often get bad information about.*
+### Two documents
+
+I ran a test the week before this workshop, and the result is why this session exists in
+its current form.
+
+The first document was a section of the literature review from my own doctoral
+dissertation. I wrote it in 2015. There was no large language model available to write it
+with, so whatever else is true of that text, it can't contain AI-generated prose.
+
+The second was a paragraph a language model wrote at my direction on the morning of July
+27, 2026. I asked it to restate a passage of the same dissertation in plainer language.
+It's machine-generated in the most straightforward sense available.
+
+I put both through commercial AI detectors.
+
+| Document | Provenance | GPTZero (model 4.7b) | ZeroGPT | Copyleaks |
+|:--|:--|:--|:--|:--|
+| Dissertation literature review, 1,779 words | Human, 2015 | 100% human | 0.6% AI | 0% AI |
+| Restated paragraph, 334 words | LLM, July 2026 | 100% human | 0% AI | *not yet run* |
+
+One of those documents couldn't have been written by a machine. The other couldn't have
+been written by anything else. Both tools called both of them human. GPTZero used the same
+words each time: *"We are highly confident this text is entirely human."* Not a hedge, not
+a maybe. The phrasing a teacher would act on.
+
+Now look at the ordering. ZeroGPT scored the 2015 dissertation at 0.6% AI and the
+machine-written paragraph at 0%. It didn't just fail to tell them apart. It ranked them
+backwards. The one document in the pair that could not possibly contain AI-generated prose
+is the one it found marginally more suspicious.
+
+The margin is small enough that neither text would be flagged by any sane threshold, and
+that's the point. A weak signal you can compensate for by moving the cutoff. An
+arbitrary ordering leaves you nothing to move.
+
+::: {.callout-note collapse="true"}
+## Two caveats, since someone will ask
+
+The dissertation was run on GPTZero's Advanced scan and the paragraph on its Basic scan
+(the free tier allows one Advanced scan per day). The two documents also differ
+substantially in length. So two variables moved, not one, and this is a demonstration
+rather than an experiment.
+
+Note which way the length difference cuts, though. Shorter text gives a detector less to
+work with, which should make the machine-written paragraph the *harder* case. It was still
+called human with high confidence. The confound runs against the tool, not in its favor.
+:::
+
+### What the tool measures
+
+This isn't a malfunction. A detector doesn't recognize machine authorship, because machine
+authorship leaves no signature to recognize. What it measures is predictability, roughly
+how closely word choice tracks what a language model would have chosen next. That's a
+proxy, and the gap between the proxy and the thing it stands for is where every one of
+these results lives.
+
+Two things follow that a better version doesn't fix.
+
+The first is that the signal is weakest where the stakes are highest. A short assignment
+gives the tool less to work with than a long one, so the scores that matter most in a
+middle-school classroom are the least reliable ones. OpenAI withdrew its own classifier in
+2023 on the grounds that accuracy was too low to be useful. A company with every
+commercial reason to keep it running concluded it couldn't.
+
+The second is the base rate, and it's the part people skip. Suppose a tool is right most of
+the time, and most students in a class of thirty didn't use AI. A meaningful share of the
+flags it raises will still be wrong. The number a vendor quotes is accuracy on their own
+test set. The number that matters to you is the chance that *this* flagged student actually
+did it, and that number is lower, sometimes much lower. That's the difference between a
+tool that identifies cheating and a tool that generates a list of students to go and
+accuse.
+
+### Why they now under-flag
+
+There's a further wrinkle, and it explains the table above. After the false-positive
+research of 2023 and the press that followed it, vendors recalibrated toward not accusing
+people. Several now market low false-positive rates as a feature.
+
+That's the right direction to have moved in. But a detector tuned to almost never accuse
+falsely is also a detector that almost never catches anything. The trade was sensitivity for
+safety, and it shifted the worry. Wrongful accusation was the 2023 problem. The 2026 problem
+is that the tool may be doing nothing for you at all.
 
 ## Equity
 
-*tktk — access differences, language background, disability accommodation, and how
-detection-based policy lands unevenly.*
+When these tools do get it wrong, the errors aren't distributed evenly.
+
+Liang and colleagues ran a set of widely used GPT detectors against writing by native and
+non-native English speakers. The detectors classified the native-speaker samples almost
+perfectly. They misclassified **more than half** of the non-native samples as AI-generated.
+
+Two things about that study matter for how much weight to put on it. It's strong evidence,
+published, replicated in its own design, mechanistically explained. And it's from 2023, run
+against the detectors of that moment. The recalibration described above happened partly
+*because* of findings like this one. So treat it as evidence about what these tools do when
+they're tuned to catch things, rather than as a current measurement of any particular
+product.
+
+The mechanism is the part that outlives the vintage. When the researchers enriched the
+vocabulary in the non-native samples, the misclassification rate fell. When they simplified
+the native-speaker samples, it rose. The tools are reading lexical range as evidence of
+humanity, so they penalize a limited English vocabulary and reward a large one, which is a
+proxy for the thing schools are supposed to be teaching rather than punishing.
+
+Follow that through to the students in front of you. An English learner writes plainly
+because they're still acquiring the language. A student using assistive or predictive
+writing technology under an IEP produces smoothed, conventional prose by design. A student
+who's been taught to write to a formula writes to the formula. Each of these is a student
+doing the thing we asked, and each of them is likelier to be flagged than a confident
+writer who never had to think about it.
+
+Meanwhile the students who can pay for the better tools are also the students likelier to
+produce the idiosyncratic prose that reads as human. The tool sorts partly on advantage.
+
+Then consider what an accusation costs. It costs a confident student one uncomfortable
+conversation. It costs a student who's already unsure whether they belong considerably
+more, and some of them don't come back from it.
 
 ## Writing a responsible-use policy
 
-*tktk — the practical takeaway. A teacher should leave able to draft or revise a policy for
-their own classroom.*
+The practical half. A policy is doing its job when a student can tell, before starting,
+what they're allowed to do, and when you can act on a suspicion without a detector score
+being your only evidence.
+
+Four things make the difference.
+
+### Set the rule per assignment, not per course
+
+Blanket bans fail because they aren't believed and aren't enforceable. Blanket permission
+fails because it doesn't distinguish between tasks. Whether AI use is acceptable depends on
+what the specific task is meant to develop, and brainstorming and final prose aren't the
+same question.
+
+### Say what the assignment is for
+
+"You may not use AI" invites lawyering. "This assignment exists so you practice building an
+argument from sources, so the argument and the prose need to be yours. Use AI to check your
+grammar afterwards if you like." That version tells the student what's actually being
+protected, and it holds up when they ask why.
+
+### Define disclosure concretely
+
+Name where it goes, what it says, and how long it should be. A one-line note at the end of
+the document, saying what tool was used and for what, is enough. Unenforced disclosure
+requirements just teach students that the rules are decorative.
+
+### Separate suspicion from evidence
+
+Decide in advance what you do when something looks off, and make the first step a
+conversation rather than a charge. Ask the student to talk you through their drafting. That
+conversation is more diagnostic than any score, and it's survivable when you turn out to be
+wrong. Which you sometimes will be.
 
 ::: {.callout-tip}
 ## Takeaway
 
-*tktk — the one thing participants should carry out of the room.*
+Write the rule into the assignment, not into the detector. A policy that explains what the
+work is *for* gives students something they can follow and gives you something you can
+defend. A policy that rests on a similarity score gives you neither.
 :::
 
 ## Resources
 
-*tktk — readings, policy templates, and links. Prefer permanent URLs and DOIs; no link
-shorteners.*
+Liang, W., Yuksekgonul, M., Mao, Y., Wu, E., & Zou, J. (2023). GPT detectors are biased
+against non-native English writers. *Patterns, 4*(7), 100779.
+<https://doi.org/10.1016/j.patter.2023.100779>
+
+*More to come. Policy templates and a short reading list will be added here before the
+workshop.*

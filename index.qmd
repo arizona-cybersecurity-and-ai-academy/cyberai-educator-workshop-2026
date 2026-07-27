@@ -30,16 +30,6 @@ are putting them to work.
 :::
 :::
 
-::: {.draft-note}
-**Preview for presenters, not yet for participants.** This is here so Paul, Rob, Sandra and
-Kyle can see the shape of it and fill the gaps. Anything marked *tktk* is a question waiting
-on someone — mostly presenter names for Day 1, and the venue details. Sessions gain a
-materials link once a presenter supplies something. Two things need a decision rather than
-just information: the Day 1 afternoon timings (see the note under that schedule), which don't
-currently add up, and whether the closing discussion needs a feedback form on the site.
-Send anything to [ryanstraight@arizona.edu](mailto:ryanstraight@arizona.edu).
-:::
-
 ## Overview {#overview}
 
 This workshop brings together classroom educators and cybersecurity clinic practitioners
@@ -84,16 +74,16 @@ asking what you still need.
   <div class="tl-card is-overview">
     <div><span class="tl-num">Session 1</span> <span class="tl-type t-overview">Overview</span></div>
     <h3>Introductions and PD overview</h3>
-    <p class="tl-who">tktk</p>
+    <p class="tl-gloss">Open discussion, all presenters</p>
   </div>
 </div>
 <div class="tl-row">
   <div class="tl-when"><span class="tl-time">9:30</span><span class="tl-dur">60 min</span></div>
   <div class="tl-card">
     <div><span class="tl-num">Session 2</span></div>
-    <h3>AI foundations: what teachers need to know</h3>
+    <h3><a href="sessions/day1-s2-foundations.html">AI foundations: what teachers need to know</a></h3>
     <p class="tl-gloss">Large language models, what they can and can't do, and the misconceptions that get in the way</p>
-    <p class="tl-who">tktk</p>
+    <p class="tl-who"><a href="#ryan-straight">Ryan Straight</a> · <a href="#kyle-cronin">Kyle Cronin</a></p>
   </div>
 </div>
 <div class="tl-gap"><span class="tl-gap-time">10:30</span><span class="tl-gap-label">10 min break</span></div>
@@ -101,7 +91,7 @@ asking what you still need.
   <div class="tl-when"><span class="tl-time">10:40</span><span class="tl-dur">45 min</span></div>
   <div class="tl-card">
     <div><span class="tl-num">Session 3</span></div>
-    <h3>AI ethics, bias &amp; academic integrity</h3>
+    <h3><a href="sessions/day1-s3-ethics.html">AI ethics, bias &amp; academic integrity</a></h3>
     <p class="tl-gloss">Limits of plagiarism detection, equity concerns, responsible-use and AI policies</p>
     <p class="tl-who"><a href="#ryan-straight">Ryan Straight</a></p>
   </div>
@@ -111,9 +101,9 @@ asking what you still need.
   <div class="tl-when"><span class="tl-time">12:45</span><span class="tl-dur">60 min</span></div>
   <div class="tl-card">
     <div><span class="tl-num">Session 4</span></div>
-    <h3>Lesson planning, content creation, feedback and grading</h3>
+    <h3><a href="sessions/day1-s4-planning-feedback.html">Lesson planning, content creation, feedback and grading</a></h3>
     <p class="tl-gloss">Rubrics, worksheets, differentiated materials, and drafting feedback that still says something</p>
-    <p class="tl-who">tktk</p>
+    <p class="tl-who"><a href="#rob-honomichl">Rob Honomichl</a> · <a href="#sandra-leiterman">Sandra Leiterman</a> · <a href="#ryan-straight">Ryan Straight</a></p>
   </div>
 </div>
 <div class="tl-gap"><span class="tl-gap-time">1:45</span><span class="tl-gap-label">10 min break</span></div>
@@ -123,17 +113,17 @@ asking what you still need.
     <div><span class="tl-num">Session 5</span></div>
     <h3>Teaching students to use AI responsibly</h3>
     <p class="tl-gloss">Prompt literacy and critical evaluation of AI output</p>
-    <p class="tl-who">tktk</p>
+    <p class="tl-who"><a href="#sandra-leiterman">Sandra Leiterman</a></p>
   </div>
 </div>
 <div class="tl-gap"><span class="tl-gap-time">2:35</span><span class="tl-gap-label">10 min break</span></div>
 <div class="tl-row">
-  <div class="tl-when"><span class="tl-time">2:45</span><span class="tl-dur">see note</span></div>
+  <div class="tl-when"><span class="tl-time">2:45</span><span class="tl-dur">40 min</span></div>
   <div class="tl-card">
     <div><span class="tl-num">Session 6</span></div>
     <h3>Personalized learning &amp; accessibility</h3>
     <p class="tl-gloss">Adaptive supports, ELL and IEP accommodations</p>
-    <p class="tl-who">tktk</p>
+    <p class="tl-who"><a href="#sandra-leiterman">Sandra Leiterman</a></p>
   </div>
 </div>
 <div class="tl-gap"><span class="tl-gap-time">3:25</span><span class="tl-gap-label">10 min break</span></div>
@@ -142,8 +132,7 @@ asking what you still need.
   <div class="tl-card">
     <div><span class="tl-num">Session 7</span></div>
     <h3>Closing discussion</h3>
-    <p class="tl-gloss">What did you learn, what would you like to learn, what do you need</p>
-    <p class="tl-who">tktk</p>
+    <p class="tl-gloss">What did you learn, what would you like to learn, what do you need. Open discussion, all presenters</p>
   </div>
 </div>
 <div class="tl-row">
@@ -155,15 +144,9 @@ asking what you still need.
 </div>
 ```
 
-::: {.draft-note}
-**Day 1 afternoon timings need a fix before this is published.** Taking the agenda as
-written: Session 6 runs 2:45-3:50 (65 minutes, labeled 45), the following break sits at
-3:25-3:35 *inside* it, and Session 7 starts at 3:35 while Session 6 is still running.
-Sessions 5 and 7 are also each 40 minutes against a 45-minute label. Separately,
-lunch ends at 12:35 and Session 4 starts at 12:45, leaving 10 minutes unaccounted for. The likeliest intent is
-Session 6 at 2:45-3:25, break 3:25-3:35, Session 7 at 3:35-4:15 — which resolves every
-conflict — but that is a reconstruction, not a correction, and needs Paul or Rob to confirm.
-Day 2 is internally consistent throughout.
+::: {.day-shape}
+Times are a guide rather than a rule. Sessions run to the conversation, and the day is
+built to flex.
 :::
 
 ## Day 2 {#day-2}
@@ -277,7 +260,7 @@ whole afternoon is one hands-on tabletop exercise in three parts.
 
 ::: {.presenter-sessions}
 [Leads]{.ps-label}
-Day 1, Session 3 — AI ethics, bias &amp; academic integrity
+Day 1, Session 3, AI ethics, bias &amp; academic integrity. Also contributes to Sessions 2 and 4.
 :::
 
 [[ryanstraight@arizona.edu](mailto:ryanstraight@arizona.edu) · [ORCID](https://orcid.org/0000-0002-6251-5662)]{.presenter-contact}
@@ -297,7 +280,7 @@ Day 1, Session 3 — AI ethics, bias &amp; academic integrity
 
 ::: {.presenter-sessions}
 [Leads]{.ps-label}
-Day 2 — Sessions 1, 4, and the three Clinic-in-a-Box tabletop sessions. Panellist, Session 3.
+Day 2, Sessions 1, 4, and the three Clinic-in-a-Box tabletop sessions. Panelist, Session 3.
 :::
 :::
 :::
@@ -315,7 +298,7 @@ Day 2 — Sessions 1, 4, and the three Clinic-in-a-Box tabletop sessions. Panell
 
 ::: {.presenter-sessions}
 [Leads]{.ps-label}
-Day 2 — Sessions 1 and 2. Panellist, Session 3.
+Day 1, Session 4 (with Sandra Leiterman and Ryan Straight). Day 2, Sessions 1 and 2. Panelist, Session 3.
 :::
 :::
 :::
@@ -329,11 +312,11 @@ Day 2 — Sessions 1 and 2. Panellist, Session 3.
 ::: {.presenter-body}
 ### Sandra Leiterman
 
-[Director of Cybersecurity Education and Outreach, CORE (Cyberspace Operations Research and Education), University of Arkansas at Little Rock. *tktk — three titles are in circulation; confirm with her directly*]{.presenter-role}
+[Director of Cybersecurity Education and Outreach, CORE (Cyberspace Operations Research and Education), University of Arkansas at Little Rock.]{.presenter-role}
 
 ::: {.presenter-sessions}
 [Leads]{.ps-label}
-Day 2 — panellist, Session 3, on the Arkansas clinic model. Host institution.
+Day 1, Sessions 5 and 6, and co-presents Session 4. Day 2, Panelist, Session 3, on the Arkansas clinic model. Host institution.
 :::
 :::
 :::
@@ -351,7 +334,7 @@ Day 2 — panellist, Session 3, on the Arkansas clinic model. Host institution.
 
 ::: {.presenter-sessions}
 [Leads]{.ps-label}
-Day 2 — panellist, Session 3, on the South Dakota clinic model.
+Day 1, Session 2 (with Ryan Straight). Day 2, panelist, Session 3, on the South Dakota clinic model.
 :::
 :::
 :::
@@ -361,38 +344,40 @@ Day 2 — panellist, Session 3, on the South Dakota clinic model.
 </div>
 ```
 
-::: {.callout-note collapse="true"}
-## Day 1 sessions 1, 2, 4, 5, 6 and 7
-
-Not yet attributed. The source agenda names a presenter only for Session 3. *tktk*
-:::
-
 ## Practical information {#practical}
 
 ```{=html}
 <div class="facts">
   <div class="fact">
     <div class="fact-label"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Venue</div>
-    <p>CORE Center, University of Arkansas at Little Rock.</p>
-    <p><em>tktk — building, room, and parking</em></p>
+    <p>CORE Center, University of Arkansas at Little Rock, 2801 S University Ave.</p>
+    <p>Free open parking, and a campus map will be circulated before the workshop. If you need
+    accessible parking, contact Sandra Leiterman and she will arrange Lot 8.</p>
   </div>
   <div class="fact">
     <div class="fact-label"><i class="bi bi-laptop" aria-hidden="true"></i> Bring</div>
     <p>A laptop. Several sessions are hands-on, and the Day 2 tabletop exercise runs on your own machine.</p>
-    <p><em>tktk — any accounts or software needed in advance</em></p>
+    <p>If any session needs software or an account set up beforehand, it will be posted here
+    ahead of the workshop.</p>
   </div>
   <div class="fact">
     <div class="fact-label"><i class="bi bi-wifi" aria-hidden="true"></i> Wifi</div>
-    <p><em>tktk — guest network and access details</em></p>
+    <p>Guest network details are handed out on arrival, so there's nothing to set up in advance.</p>
   </div>
   <div class="fact">
     <div class="fact-label"><i class="bi bi-cup-hot-fill" aria-hidden="true"></i> Meals</div>
-    <p>Coffee and light refreshments on arrival both mornings. Lunch is on the schedule both days.</p>
-    <p><em>tktk — provided, or on your own?</em></p>
+    <p>Coffee and light refreshments on arrival both mornings. Lunch is provided on-site
+    both days, so nobody has to go out in the heat.</p>
+    <p>Tell Sandra Leiterman about any allergies or dietary restrictions as early as you can.</p>
   </div>
   <div class="fact">
     <div class="fact-label"><i class="bi bi-clock-fill" aria-hidden="true"></i> Hours</div>
     <p>Doors at 8:30 both days. Day 1 ends 4:30, Day 2 ends 4:00.</p>
+  </div>
+  <div class="fact">
+    <div class="fact-label"><i class="bi bi-thermometer-sun" aria-hidden="true"></i> Weather</div>
+    <p>Extremely hot both days. Dress for the walk in from parking, and bring a layer,
+    because the air conditioning inside more than compensates.</p>
   </div>
   <div class="fact">
     <div class="fact-label"><i class="bi bi-envelope-fill" aria-hidden="true"></i> Questions</div>
@@ -411,8 +396,8 @@ agenda, directed the writing, and reviewed and edited everything here. I'm respo
 its accuracy. AI was not used to make any decision about a participant, and it isn't used
 anywhere in the workshop's research component.
 
-The same statement is on the [disclosure page](resources/ai-disclosure.qmd), because asking
-teachers to disclose and not doing it yourself is a bad look.
+The same statement is on the [disclosure page](resources/ai-disclosure.qmd), which suggests
+teachers do the same for materials they make this way.
 
 Session materials are the work of the presenter named on each session, and each presenter
 speaks for their own.
