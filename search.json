@@ -161,6 +161,13 @@
     "text": "A note on the detection question\nDon’t build your policy on AI detectors.\nThey produce false positives, those false positives don’t fall evenly (multilingual writers and students who write in a plain, formulaic style get flagged more often), and a student accused on a detector score has almost no way to prove a negative. A policy that depends on detection puts you in the position of prosecuting a case you can’t actually make.\nPolicies that hold up are built on process instead: drafts, in-class writing, conversations about the work, and disclosure norms that make honesty the easy path.\nThis gets covered in more depth in Day 1, Session 3."
   },
   {
+    "objectID": "resources/ai-disclosure.html#this-page-disclosed",
+    "href": "resources/ai-disclosure.html#this-page-disclosed",
+    "title": "AI Disclosure Statements",
+    "section": "This page, disclosed",
+    "text": "This page, disclosed\nPractising what the section above asks for.\nThis page and the rest of this site were drafted with AI assistance (Claude). Ryan Straight set the structure, supplied the source agenda, directed the writing, and reviewed and edited all of it. He’s responsible for its accuracy. AI was not used to make any decision about a participant, and it isn’t used anywhere in the workshop’s research component."
+  },
+  {
     "objectID": "resources/ai-disclosure.html#adapting-these",
     "href": "resources/ai-disclosure.html#adapting-these",
     "title": "AI Disclosure Statements",

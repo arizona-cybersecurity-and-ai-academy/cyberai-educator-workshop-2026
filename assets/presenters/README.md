@@ -1,13 +1,7 @@
----
-title: README
-type: note
-permalink: exo/scholarship/projects/cyber-academy-presentation-cyberai-pd-2026/assets/presenters/readme
----
-
 # Presenter portraits
 
-Square JPEGs, displayed as 78px circles. Anything from about 300px up is plenty;
-faces should be roughly centered.
+Square JPEGs, displayed as 78px circles. Anything from about 300px up is plenty, and faces
+should be roughly centered.
 
 Filenames are lowercase surname:
 
