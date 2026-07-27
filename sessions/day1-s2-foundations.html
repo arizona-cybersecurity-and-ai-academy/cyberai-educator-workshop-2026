@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ryan Straight and Kyle Cronin">
 
-<title>AI Disclosure Statements – CyberAI Educator Workshop</title>
+<title>AI Foundations: What Teachers Need to Know – CyberAI Educator Workshop</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -77,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="AI Disclosure Statements – CyberAI Educator Workshop">
-<meta property="og:description" content="Copy, paste, edit to fit">
-<meta property="og:image" content="https://arizona-cybersecurity-and-ai-academy.github.io/cyberai-educator-workshop-2026/resources/assets/og-card.png">
+<meta property="og:title" content="AI Foundations: What Teachers Need to Know – CyberAI Educator Workshop">
+<meta property="og:description" content="Day 1, Session 2 · 9:30-10:30 · 60 minutes">
+<meta property="og:image" content="https://arizona-cybersecurity-and-ai-academy.github.io/cyberai-educator-workshop-2026/sessions/assets/og-card.png">
 <meta property="og:site_name" content="CyberAI Educator Workshop">
 <meta property="og:image:alt" content="Arizona Cybersecurity Academy logo">
 <meta property="og:locale" content="en_US">
@@ -125,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../resources/ai-disclosure.html" aria-current="page"> 
+    <a class="nav-link" href="../resources/ai-disclosure.html"> 
 <span class="menu-text">Take-away resources</span></a>
   </li>  
 </ul>
@@ -141,20 +142,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Jump to</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#for-your-syllabus" id="toc-for-your-syllabus" class="nav-link active" data-scroll-target="#for-your-syllabus">For your syllabus</a>
+  <li><a href="#what-this-session-covers" id="toc-what-this-session-covers" class="nav-link active" data-scroll-target="#what-this-session-covers">What this session covers</a></li>
+  <li><a href="#session-outline" id="toc-session-outline" class="nav-link" data-scroll-target="#session-outline">Session outline</a></li>
+  <li><a href="#key-points" id="toc-key-points" class="nav-link" data-scroll-target="#key-points">Key points</a></li>
+  <li><a href="#what-a-language-model-actually-does" id="toc-what-a-language-model-actually-does" class="nav-link" data-scroll-target="#what-a-language-model-actually-does">What a language model actually does</a></li>
+  <li><a href="#where-its-strong-where-it-fails" id="toc-where-its-strong-where-it-fails" class="nav-link" data-scroll-target="#where-its-strong-where-it-fails">Where it’s strong, where it fails</a>
   <ul class="collapse">
-  <li><a href="#ai-is-not-permitted" id="toc-ai-is-not-permitted" class="nav-link" data-scroll-target="#ai-is-not-permitted">AI is not permitted</a></li>
-  <li><a href="#ai-is-permitted-with-disclosure" id="toc-ai-is-permitted-with-disclosure" class="nav-link" data-scroll-target="#ai-is-permitted-with-disclosure">AI is permitted with disclosure</a></li>
-  <li><a href="#ai-is-expected" id="toc-ai-is-expected" class="nav-link" data-scroll-target="#ai-is-expected">AI is expected</a></li>
+  <li><a href="#strong-you-supply-the-content-it-changes-the-form" id="toc-strong-you-supply-the-content-it-changes-the-form" class="nav-link" data-scroll-target="#strong-you-supply-the-content-it-changes-the-form">Strong: you supply the content, it changes the form</a></li>
+  <li><a href="#weak-you-ask-it-to-supply-the-content" id="toc-weak-you-ask-it-to-supply-the-content" class="nav-link" data-scroll-target="#weak-you-ask-it-to-supply-the-content">Weak: you ask it to supply the content</a></li>
+  <li><a href="#the-rule-of-thumb" id="toc-the-rule-of-thumb" class="nav-link" data-scroll-target="#the-rule-of-thumb">The rule of thumb</a></li>
   </ul></li>
-  <li><a href="#for-a-specific-assignment" id="toc-for-a-specific-assignment" class="nav-link" data-scroll-target="#for-a-specific-assignment">For a specific assignment</a></li>
-  <li><a href="#for-students-to-use" id="toc-for-students-to-use" class="nav-link" data-scroll-target="#for-students-to-use">For students to use</a></li>
-  <li><a href="#for-materials-you-made-with-ai" id="toc-for-materials-you-made-with-ai" class="nav-link" data-scroll-target="#for-materials-you-made-with-ai">For materials you made with AI</a></li>
-  <li><a href="#a-note-on-the-detection-question" id="toc-a-note-on-the-detection-question" class="nav-link" data-scroll-target="#a-note-on-the-detection-question">A note on the detection question</a></li>
-  <li><a href="#adapting-these" id="toc-adapting-these" class="nav-link" data-scroll-target="#adapting-these">Adapting these</a></li>
+  <li><a href="#common-misconceptions" id="toc-common-misconceptions" class="nav-link" data-scroll-target="#common-misconceptions">Common misconceptions</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -163,14 +165,20 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">AI Disclosure Statements</h1>
-<p class="subtitle lead">Copy, paste, edit to fit</p>
+<h1 class="title">AI Foundations: What Teachers Need to Know</h1>
+<p class="subtitle lead">Day 1, Session 2 · 9:30-10:30 · 60 minutes</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ryan Straight and Kyle Cronin </p>
+          </div>
+  </div>
     
   
     
@@ -181,92 +189,84 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Most AI policies fail the same way. They’re written once, buried in a syllabus, and phrased so broadly that nobody, including the teacher, can say whether a given use was allowed.</p>
-<p>What helps is a specific policy, stated where students will actually run into it, plus the habit of saying what you used yourself. Length has nothing to do with it.</p>
-<p>Everything below is meant to be lifted and edited. Nothing here is legal advice or your district’s policy, and where the two conflict, your district wins.</p>
-<section id="for-your-syllabus" class="level2">
-<h2 class="anchored" data-anchor-id="for-your-syllabus">For your syllabus</h2>
-<p>Pick the one that matches what you actually want, then say why. The reason is the part students remember.</p>
-<section id="ai-is-not-permitted" class="level3">
-<h3 class="anchored" data-anchor-id="ai-is-not-permitted">AI is not permitted</h3>
-<pre><code>For this course, all submitted work must be your own. Don't use generative AI tools
-(ChatGPT, Claude, Gemini, Copilot, and anything like them) to produce text, code, or
-images you turn in.
-
-The reason is simple: this course is about building the skill, and you can't build it by
-watching something else do it. If you're stuck, come to me. That's what I'm for.
-
-If you're unsure whether a tool counts, ask before you use it, not after.</code></pre>
+<section id="what-this-session-covers" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-session-covers">What this session covers</h2>
+<p>The rest of the workshop assumes you know what these tools actually are, so this is the hour that puts that in place. What a large language model does mechanically, why that explains both what it’s good at and how it fails, and which of the things people commonly believe about them are wrong.</p>
+<p>You don’t need a technical background for any of this. The goal is that by the end of the hour you can predict, before you try it, whether a given classroom task is one these tools will handle well.</p>
 </section>
-<section id="ai-is-permitted-with-disclosure" class="level3">
-<h3 class="anchored" data-anchor-id="ai-is-permitted-with-disclosure">AI is permitted with disclosure</h3>
-<pre><code>You may use generative AI tools in this course. If you do, tell me.
-
-Add a short note at the end of anything you submit: which tool, what you asked it for,
-and what you did with what it gave you. Two or three sentences is plenty.
-
-Undisclosed AI use is an integrity violation. Disclosed AI use is just how you did the
-work, and it won't cost you points.</code></pre>
+<section id="session-outline" class="level2">
+<h2 class="anchored" data-anchor-id="session-outline">Session outline</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Time</th>
+<th style="text-align: left;">Segment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">~15 min</td>
+<td style="text-align: left;">What a language model actually does</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">~25 min</td>
+<td style="text-align: left;">Where it’s strong, where it fails, and why those are the same fact</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">~20 min</td>
+<td style="text-align: left;">Common misconceptions, and questions</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="ai-is-expected" class="level3">
-<h3 class="anchored" data-anchor-id="ai-is-expected">AI is expected</h3>
-<pre><code>This course treats AI as a tool you're learning to use well, which means using it, being
-honest about it, and being able to defend what came out.
-
-For every assignment, submit your prompts along with your work, and flag anything the tool
-produced that you kept without changing. You're responsible for everything you turn in,
-including whatever the tool got wrong.</code></pre>
+<section id="key-points" class="level2">
+<h2 class="anchored" data-anchor-id="key-points">Key points</h2>
+<ul>
+<li>A language model predicts likely next words. Everything it does well and everything it gets wrong follows from that one fact.</li>
+<li>Fluency and accuracy are separate properties. Confident, well-formed, and wrong is the normal failure, not an unusual one.</li>
+<li>The reliable rule of thumb: these tools are strong when you supply the content and ask them to change its form, and weak when you ask them to supply the content.</li>
+<li>Most of what people believe about how these tools learn, remember, and search is wrong in ways that matter for classroom use.</li>
+</ul>
+</section>
+<section id="what-a-language-model-actually-does" class="level2">
+<h2 class="anchored" data-anchor-id="what-a-language-model-actually-does">What a language model actually does</h2>
+<p>A large language model is a system that has been trained to predict what word comes next, across an enormous amount of text. That’s the whole mechanism. Everything else, the conversation, the essay, the lesson plan, is that prediction running over and over.</p>
+<p>Be blunt about what that rules out. The model isn’t looking anything up. It has no database it consults and no notion of a source. When it produces a citation, it’s producing the sequence of words a citation tends to look like. That sequence is sometimes a real paper and sometimes isn’t, and the model has no way to tell the difference, because from the inside there’s no difference.</p>
+<p>This is also why the output is so fluent. Fluency is what the training optimizes for. Accuracy comes along for the ride when the training text happened to be accurate and consistent, and it doesn’t when the text was thin, contested, or absent.</p>
+</section>
+<section id="where-its-strong-where-it-fails" class="level2">
+<h2 class="anchored" data-anchor-id="where-its-strong-where-it-fails">Where it’s strong, where it fails</h2>
+<section id="strong-you-supply-the-content-it-changes-the-form" class="level3">
+<h3 class="anchored" data-anchor-id="strong-you-supply-the-content-it-changes-the-form">Strong: you supply the content, it changes the form</h3>
+<p>Summarizing a document you paste in. Rewriting your paragraph at a sixth-grade reading level. Turning your rubric into a student-facing checklist. Translating your worksheet. Reformatting your notes into slides. Explaining your own text back to you in different terms.</p>
+<p>In all of these the substance is already in front of the model. It isn’t being asked to know anything, only to restate. That’s the task the mechanism is good at, and it’s most of what a teacher needs.</p>
+</section>
+<section id="weak-you-ask-it-to-supply-the-content" class="level3">
+<h3 class="anchored" data-anchor-id="weak-you-ask-it-to-supply-the-content">Weak: you ask it to supply the content</h3>
+<p>Facts it has to recall. Citations. Anything numeric. Recent events. Anything where being almost right is the same as being wrong.</p>
+<p>This is the failure that catches people. The model doesn’t know when it doesn’t know. It has no internal signal for the difference between a well-supported answer and a fabricated one, so it delivers both in the same confident register. A human expert hedges when they’re unsure. This won’t.</p>
+</section>
+<section id="the-rule-of-thumb" class="level3">
+<h3 class="anchored" data-anchor-id="the-rule-of-thumb">The rule of thumb</h3>
+<p>Before you use one of these tools for something, ask where the content is coming from. If it’s coming from you and the tool is changing its shape, you’re on solid ground. If it’s coming from the tool, you have to check it, and checking it often costs more than doing it yourself would have.</p>
+<p>That single question predicts most of what you’ll experience in Sessions 4, 5 and 6.</p>
 </section>
 </section>
-<section id="for-a-specific-assignment" class="level2">
-<h2 class="anchored" data-anchor-id="for-a-specific-assignment">For a specific assignment</h2>
-<p>Course-level policies get forgotten by week three. Restating the rule on the assignment itself is what actually works.</p>
-<pre><code>AI on this assignment: [allowed / not allowed / allowed for X but not Y]
-
-If allowed, add your disclosure note at the end. If you're not sure whether something
-counts, ask me before the due date.</code></pre>
-<p>A more specific version, for when the line falls inside the assignment rather than around it:</p>
-<pre><code>For this assignment you may use AI to brainstorm, outline, and check your grammar. Don't
-use it to write the analysis, which is the part I'm actually grading.
-
-If you used it, say so at the end: which tool, what for.</code></pre>
+<section id="common-misconceptions" class="level2">
+<h2 class="anchored" data-anchor-id="common-misconceptions">Common misconceptions</h2>
+<p><strong>“It searches the internet.”</strong> Usually not. Unless a tool explicitly says it’s browsing or retrieving, it’s generating from training, and the training has a cutoff date.</p>
+<p><strong>“It learns from our conversation.”</strong> Not in the way people mean. Some products have a memory feature that saves notes about you, but a plain chat doesn’t change the model. Nothing your students type is teaching it.</p>
+<p><strong>“It’ll get the math right, it’s a computer.”</strong> It’s a language model, not a calculator. Arithmetic is a sequence-prediction problem to it, and it approximates.</p>
+<p><strong>“It can tell you whether something was AI-written.”</strong> It can’t, and it will confidently say yes or no when asked. More on this in Session 3.</p>
+<p><strong>“It understands what it’s saying.”</strong> Set this one aside rather than argue it. For classroom purposes the question doesn’t need answering, because the behavior is the same either way, and the behavior is what you’re planning around.</p>
 </section>
-<section id="for-students-to-use" class="level2">
-<h2 class="anchored" data-anchor-id="for-students-to-use">For students to use</h2>
-<p>Give them the words. Most students who don’t disclose aren’t hiding anything, they just don’t know what a disclosure is supposed to look like.</p>
-<pre><code>AI use on this assignment: I used [tool] to [what you asked it to do]. I [kept it as is /
-rewrote it / used it as a starting point and changed most of it]. Everything else is mine.</code></pre>
-<p>Worked examples:</p>
-<pre><code>AI use: I used ChatGPT to help me brainstorm topics. I picked one from its list and wrote
-the essay myself.</code></pre>
-<pre><code>AI use: I used Claude to check my code for errors. It found two bugs and I fixed them. I
-wrote the program.</code></pre>
-<pre><code>AI use: I used Gemini to draft an outline and then rewrote most of it, because the order it
-suggested didn't work for my argument.</code></pre>
-</section>
-<section id="for-materials-you-made-with-ai" class="level2">
-<h2 class="anchored" data-anchor-id="for-materials-you-made-with-ai">For materials you made with AI</h2>
-<p>This is the one teachers skip, and it’s the one that carries the most weight. If you’re asking students to disclose, disclose.</p>
-<pre><code>Parts of this handout were drafted with AI assistance. I reviewed and edited everything
-here, and I'm responsible for its accuracy.</code></pre>
-<p>A fuller version, for anything going beyond your own classroom:</p>
-<pre><code>AI contribution: [tool] was used to [draft / revise / generate examples / format]. All
-content was reviewed and edited by [name], who is responsible for its accuracy. AI was not
-used to [grade student work / make decisions about students / whatever your line is].</code></pre>
-</section>
-<section id="a-note-on-the-detection-question" class="level2">
-<h2 class="anchored" data-anchor-id="a-note-on-the-detection-question">A note on the detection question</h2>
-<p>Don’t build your policy on AI detectors.</p>
-<p>They produce false positives, those false positives don’t fall evenly (multilingual writers and students who write in a plain, formulaic style get flagged more often), and a student accused on a detector score has almost no way to prove a negative. A policy that depends on detection puts you in the position of prosecuting a case you can’t actually make.</p>
-<p>Policies that hold up are built on process instead: drafts, in-class writing, conversations about the work, and disclosure norms that make honesty the easy path.</p>
-<p><em>This gets covered in more depth in Day 1, Session 3.</em></p>
-</section>
-<section id="adapting-these" class="level2">
-<h2 class="anchored" data-anchor-id="adapting-these">Adapting these</h2>
-<p>Three things to check before you use any of the above.</p>
-<p>Your district or school may already have a policy, and it outranks anything here. Check first.</p>
-<p>Say why, not just what. “Don’t use AI” gets ignored. “Don’t use AI, because this assignment exists to build a skill you can’t get any other way” gets followed more often.</p>
-<p>Name the tools you mean. “Generative AI” is abstract to a fourteen-year-old. “ChatGPT, Gemini, Copilot, or anything like them” is not.</p>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p><em>Kyle and I will add a short reading list here before the workshop.</em></p>
 
 
 </section>

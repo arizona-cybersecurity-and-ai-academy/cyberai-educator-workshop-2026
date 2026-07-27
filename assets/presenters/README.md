@@ -1,3 +1,9 @@
+---
+title: README
+type: note
+permalink: exo/scholarship/projects/cyber-academy-presentation-cyberai-pd-2026/assets/presenters/readme
+---
+
 # Presenter portraits
 
 Square JPEGs, displayed as 78px circles. Anything from about 300px up is plenty;

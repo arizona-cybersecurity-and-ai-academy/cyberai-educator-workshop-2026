@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5d6c62511ba9e97fbd259c6a9e599324.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-fa75a82fef6ce6a6e2908e8f70f67c6e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -145,9 +148,20 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#what-this-session-covers" id="toc-what-this-session-covers" class="nav-link active" data-scroll-target="#what-this-session-covers">What this session covers</a></li>
   <li><a href="#session-outline" id="toc-session-outline" class="nav-link" data-scroll-target="#session-outline">Session outline</a></li>
   <li><a href="#key-points" id="toc-key-points" class="nav-link" data-scroll-target="#key-points">Key points</a></li>
-  <li><a href="#the-detection-problem" id="toc-the-detection-problem" class="nav-link" data-scroll-target="#the-detection-problem">The detection problem</a></li>
+  <li><a href="#the-detection-problem" id="toc-the-detection-problem" class="nav-link" data-scroll-target="#the-detection-problem">The detection problem</a>
+  <ul class="collapse">
+  <li><a href="#two-documents" id="toc-two-documents" class="nav-link" data-scroll-target="#two-documents">Two documents</a></li>
+  <li><a href="#what-the-tool-measures" id="toc-what-the-tool-measures" class="nav-link" data-scroll-target="#what-the-tool-measures">What the tool measures</a></li>
+  <li><a href="#why-they-now-under-flag" id="toc-why-they-now-under-flag" class="nav-link" data-scroll-target="#why-they-now-under-flag">Why they now under-flag</a></li>
+  </ul></li>
   <li><a href="#equity" id="toc-equity" class="nav-link" data-scroll-target="#equity">Equity</a></li>
-  <li><a href="#writing-a-responsible-use-policy" id="toc-writing-a-responsible-use-policy" class="nav-link" data-scroll-target="#writing-a-responsible-use-policy">Writing a responsible-use policy</a></li>
+  <li><a href="#writing-a-responsible-use-policy" id="toc-writing-a-responsible-use-policy" class="nav-link" data-scroll-target="#writing-a-responsible-use-policy">Writing a responsible-use policy</a>
+  <ul class="collapse">
+  <li><a href="#set-the-rule-per-assignment-not-per-course" id="toc-set-the-rule-per-assignment-not-per-course" class="nav-link" data-scroll-target="#set-the-rule-per-assignment-not-per-course">Set the rule per assignment, not per course</a></li>
+  <li><a href="#say-what-the-assignment-is-for" id="toc-say-what-the-assignment-is-for" class="nav-link" data-scroll-target="#say-what-the-assignment-is-for">Say what the assignment is for</a></li>
+  <li><a href="#define-disclosure-concretely" id="toc-define-disclosure-concretely" class="nav-link" data-scroll-target="#define-disclosure-concretely">Define disclosure concretely</a></li>
+  <li><a href="#separate-suspicion-from-evidence" id="toc-separate-suspicion-from-evidence" class="nav-link" data-scroll-target="#separate-suspicion-from-evidence">Separate suspicion from evidence</a></li>
+  </ul></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
 </nav>
@@ -181,13 +195,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="draft-note">
-<p><strong>Stub.</strong> Structure only; Ryan writes the content. Not linked from the schedule yet. The “to come” pill on Session 3 becomes a link once there is something here worth reading.</p>
-</div>
 <section id="what-this-session-covers" class="level2">
 <h2 class="anchored" data-anchor-id="what-this-session-covers">What this session covers</h2>
-<p><em>tktk — one short paragraph a participant reads before deciding what to bring to it.</em></p>
-<p>This session covers the limits of plagiarism detection, equity concerns, and how to write a responsible-use policy for your own classroom.</p>
+<p>Most schools responded to generative AI by buying a detector and writing a policy that points at it. This session argues that both halves of that response are weaker than they look, and that the second one can be fixed. We’ll work through what detection tools actually measure, who gets caught by them and who doesn’t, and how to write a responsible-use policy that survives contact with a real classroom.</p>
+<p>Bring a policy if you have one (your school’s, your department’s, or your own syllabus language). You’ll get time to mark it up.</p>
 </section>
 <section id="session-outline" class="level2">
 <h2 class="anchored" data-anchor-id="session-outline">Session outline</h2>
@@ -201,15 +212,15 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: right;">~10 min</td>
-<td style="text-align: left;"><em>tktk</em></td>
+<td style="text-align: left;">What detection tools actually do</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">~20 min</td>
-<td style="text-align: left;"><em>tktk</em></td>
+<td style="text-align: left;">Who false positives land on</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">~15 min</td>
-<td style="text-align: left;"><em>tktk</em></td>
+<td style="text-align: left;">Writing a policy you can defend</td>
 </tr>
 </tbody>
 </table>
@@ -217,20 +228,118 @@ ul.task-list li input[type="checkbox"] {
 <section id="key-points" class="level2">
 <h2 class="anchored" data-anchor-id="key-points">Key points</h2>
 <ul>
-<li><em>tktk</em></li>
+<li>Detection tools don’t detect AI. They estimate how statistically unsurprising a piece of writing is, which is a different thing.</li>
+<li>Tested against a 2015 dissertation and a paragraph written by a language model this month, a commercial detector called both of them human.</li>
+<li>Where these tools do err, the errors have historically fallen hardest on the students least able to absorb the cost of being wrongly accused.</li>
+<li>A policy that makes detector output the evidence has outsourced an academic-integrity judgment to a vendor.</li>
+<li>What holds up is writing permitted use into the assignment, in terms of what the assignment is trying to teach.</li>
 </ul>
 </section>
 <section id="the-detection-problem" class="level2">
 <h2 class="anchored" data-anchor-id="the-detection-problem">The detection problem</h2>
-<p><em>tktk — the evidence on AI-detection tools, false-positive rates, and who bears the cost of being wrongly flagged. This is the part teachers most often get bad information about.</em></p>
+<section id="two-documents" class="level3">
+<h3 class="anchored" data-anchor-id="two-documents">Two documents</h3>
+<p>I ran a test the week before this workshop, and the result is why this session exists in its current form.</p>
+<p>The first document was a section of the literature review from my own doctoral dissertation. I wrote it in 2015. There was no large language model available to write it with, so whatever else is true of that text, it can’t contain AI-generated prose.</p>
+<p>The second was a paragraph a language model wrote at my direction on the morning of July 27, 2026. I asked it to restate a passage of the same dissertation in plainer language. It’s machine-generated in the most straightforward sense available.</p>
+<p>I put both through commercial AI detectors.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Document</th>
+<th style="text-align: left;">Provenance</th>
+<th style="text-align: left;">GPTZero (model 4.7b)</th>
+<th style="text-align: left;">ZeroGPT</th>
+<th style="text-align: left;">Copyleaks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Dissertation literature review, 1,779 words</td>
+<td style="text-align: left;">Human, 2015</td>
+<td style="text-align: left;">100% human</td>
+<td style="text-align: left;">0.6% AI</td>
+<td style="text-align: left;">0% AI</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Restated paragraph, 334 words</td>
+<td style="text-align: left;">LLM, July 2026</td>
+<td style="text-align: left;">100% human</td>
+<td style="text-align: left;">0% AI</td>
+<td style="text-align: left;"><em>not yet run</em></td>
+</tr>
+</tbody>
+</table>
+<p>One of those documents couldn’t have been written by a machine. The other couldn’t have been written by anything else. Both tools called both of them human. GPTZero used the same words each time: <em>“We are highly confident this text is entirely human.”</em> Not a hedge, not a maybe. The phrasing a teacher would act on.</p>
+<p>Now look at the ordering. ZeroGPT scored the 2015 dissertation at 0.6% AI and the machine-written paragraph at 0%. It didn’t just fail to tell them apart. It ranked them backwards. The one document in the pair that could not possibly contain AI-generated prose is the one it found marginally more suspicious.</p>
+<p>The margin is small enough that neither text would be flagged by any sane threshold, and that’s the point. A weak signal you can compensate for by moving the cutoff. An arbitrary ordering leaves you nothing to move.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Two caveats, since someone will ask
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The dissertation was run on GPTZero’s Advanced scan and the paragraph on its Basic scan (the free tier allows one Advanced scan per day). The two documents also differ substantially in length. So two variables moved, not one, and this is a demonstration rather than an experiment.</p>
+<p>Note which way the length difference cuts, though. Shorter text gives a detector less to work with, which should make the machine-written paragraph the <em>harder</em> case. It was still called human with high confidence. The confound runs against the tool, not in its favor.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="what-the-tool-measures" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-tool-measures">What the tool measures</h3>
+<p>This isn’t a malfunction. A detector doesn’t recognize machine authorship, because machine authorship leaves no signature to recognize. What it measures is predictability, roughly how closely word choice tracks what a language model would have chosen next. That’s a proxy, and the gap between the proxy and the thing it stands for is where every one of these results lives.</p>
+<p>Two things follow that a better version doesn’t fix.</p>
+<p>The first is that the signal is weakest where the stakes are highest. A short assignment gives the tool less to work with than a long one, so the scores that matter most in a middle-school classroom are the least reliable ones. OpenAI withdrew its own classifier in 2023 on the grounds that accuracy was too low to be useful. A company with every commercial reason to keep it running concluded it couldn’t.</p>
+<p>The second is the base rate, and it’s the part people skip. Suppose a tool is right most of the time, and most students in a class of thirty didn’t use AI. A meaningful share of the flags it raises will still be wrong. The number a vendor quotes is accuracy on their own test set. The number that matters to you is the chance that <em>this</em> flagged student actually did it, and that number is lower, sometimes much lower. That’s the difference between a tool that identifies cheating and a tool that generates a list of students to go and accuse.</p>
+</section>
+<section id="why-they-now-under-flag" class="level3">
+<h3 class="anchored" data-anchor-id="why-they-now-under-flag">Why they now under-flag</h3>
+<p>There’s a further wrinkle, and it explains the table above. After the false-positive research of 2023 and the press that followed it, vendors recalibrated toward not accusing people. Several now market low false-positive rates as a feature.</p>
+<p>That’s the right direction to have moved in. But a detector tuned to almost never accuse falsely is also a detector that almost never catches anything. The trade was sensitivity for safety, and it shifted the worry. Wrongful accusation was the 2023 problem. The 2026 problem is that the tool may be doing nothing for you at all.</p>
+</section>
 </section>
 <section id="equity" class="level2">
 <h2 class="anchored" data-anchor-id="equity">Equity</h2>
-<p><em>tktk — access differences, language background, disability accommodation, and how detection-based policy lands unevenly.</em></p>
+<p>When these tools do get it wrong, the errors aren’t distributed evenly.</p>
+<p>Liang and colleagues ran a set of widely used GPT detectors against writing by native and non-native English speakers. The detectors classified the native-speaker samples almost perfectly. They misclassified <strong>more than half</strong> of the non-native samples as AI-generated.</p>
+<p>Two things about that study matter for how much weight to put on it. It’s strong evidence, published, replicated in its own design, mechanistically explained. And it’s from 2023, run against the detectors of that moment. The recalibration described above happened partly <em>because</em> of findings like this one. So treat it as evidence about what these tools do when they’re tuned to catch things, rather than as a current measurement of any particular product.</p>
+<p>The mechanism is the part that outlives the vintage. When the researchers enriched the vocabulary in the non-native samples, the misclassification rate fell. When they simplified the native-speaker samples, it rose. The tools are reading lexical range as evidence of humanity, so they penalize a limited English vocabulary and reward a large one, which is a proxy for the thing schools are supposed to be teaching rather than punishing.</p>
+<p>Follow that through to the students in front of you. An English learner writes plainly because they’re still acquiring the language. A student using assistive or predictive writing technology under an IEP produces smoothed, conventional prose by design. A student who’s been taught to write to a formula writes to the formula. Each of these is a student doing the thing we asked, and each of them is likelier to be flagged than a confident writer who never had to think about it.</p>
+<p>Meanwhile the students who can pay for the better tools are also the students likelier to produce the idiosyncratic prose that reads as human. The tool sorts partly on advantage.</p>
+<p>Then consider what an accusation costs. It costs a confident student one uncomfortable conversation. It costs a student who’s already unsure whether they belong considerably more, and some of them don’t come back from it.</p>
 </section>
 <section id="writing-a-responsible-use-policy" class="level2">
 <h2 class="anchored" data-anchor-id="writing-a-responsible-use-policy">Writing a responsible-use policy</h2>
-<p><em>tktk — the practical takeaway. A teacher should leave able to draft or revise a policy for their own classroom.</em></p>
+<p>The practical half. A policy is doing its job when a student can tell, before starting, what they’re allowed to do, and when you can act on a suspicion without a detector score being your only evidence.</p>
+<p>Four things make the difference.</p>
+<section id="set-the-rule-per-assignment-not-per-course" class="level3">
+<h3 class="anchored" data-anchor-id="set-the-rule-per-assignment-not-per-course">Set the rule per assignment, not per course</h3>
+<p>Blanket bans fail because they aren’t believed and aren’t enforceable. Blanket permission fails because it doesn’t distinguish between tasks. Whether AI use is acceptable depends on what the specific task is meant to develop, and brainstorming and final prose aren’t the same question.</p>
+</section>
+<section id="say-what-the-assignment-is-for" class="level3">
+<h3 class="anchored" data-anchor-id="say-what-the-assignment-is-for">Say what the assignment is for</h3>
+<p>“You may not use AI” invites lawyering. “This assignment exists so you practice building an argument from sources, so the argument and the prose need to be yours. Use AI to check your grammar afterwards if you like.” That version tells the student what’s actually being protected, and it holds up when they ask why.</p>
+</section>
+<section id="define-disclosure-concretely" class="level3">
+<h3 class="anchored" data-anchor-id="define-disclosure-concretely">Define disclosure concretely</h3>
+<p>Name where it goes, what it says, and how long it should be. A one-line note at the end of the document, saying what tool was used and for what, is enough. Unenforced disclosure requirements just teach students that the rules are decorative.</p>
+</section>
+<section id="separate-suspicion-from-evidence" class="level3">
+<h3 class="anchored" data-anchor-id="separate-suspicion-from-evidence">Separate suspicion from evidence</h3>
+<p>Decide in advance what you do when something looks off, and make the first step a conversation rather than a charge. Ask the student to talk you through their drafting. That conversation is more diagnostic than any score, and it’s survivable when you turn out to be wrong. Which you sometimes will be.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -241,13 +350,15 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><em>tktk — the one thing participants should carry out of the room.</em></p>
+<p>Write the rule into the assignment, not into the detector. A policy that explains what the work is <em>for</em> gives students something they can follow and gives you something you can defend. A policy that rests on a similarity score gives you neither.</p>
 </div>
 </div>
 </section>
+</section>
 <section id="resources" class="level2">
 <h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<p><em>tktk — readings, policy templates, and links. Prefer permanent URLs and DOIs; no link shorteners.</em></p>
+<p>Liang, W., Yuksekgonul, M., Mao, Y., Wu, E., &amp; Zou, J. (2023). GPT detectors are biased against non-native English writers. <em>Patterns, 4</em>(7), 100779. <a href="https://doi.org/10.1016/j.patter.2023.100779" class="uri">https://doi.org/10.1016/j.patter.2023.100779</a></p>
+<p><em>More to come. Policy templates and a short reading list will be added here before the workshop.</em></p>
 
 
 </section>

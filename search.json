@@ -46,28 +46,84 @@
     "href": "index.html#presenters",
     "title": "CyberAI Educator Workshop",
     "section": "Presenters",
-    "text": "Presenters\n\n\n\n\n\nRyan Straight\nAssistant Professor, College of Information Science, University of Arizona.\n\nLeads Day 1, Session 3 — AI ethics, bias & academic integrity\n\nryanstraight@arizona.edu · ORCID\n\n\n\n\n\n\n\nPaul Wagner\nDirector of Workforce Development and Professor of Practice, Arizona Cybersecurity Academy, College of Information Science, University of Arizona.\n\nLeads Day 2 — Sessions 1, 4, and the three Clinic-in-a-Box tabletop sessions. Panellist, Session 3.\n\n\n\n\n\n\n\n\nRob Honomichl\nDirector of Cybersecurity Education and Assistant Professor, Arizona Cybersecurity Academy, College of Information Science, University of Arizona.\n\nLeads Day 2 — Sessions 1 and 2. Panellist, Session 3.\n\n\n\n\n\n\n\n\nSandra Leiterman\nDirector of Cybersecurity Education and Outreach, CORE (Cyberspace Operations Research and Education), University of Arkansas at Little Rock. tktk — three titles are in circulation; confirm with her directly\n\nLeads Day 2 — panellist, Session 3, on the Arkansas clinic model. Host institution.\n\n\n\n\n\n\n\n\nKyle Cronin\nProfessor, Chair of the Department of Cyber Defense, and Coordinator for Academic Computing, The Beacom College of Computer & Cyber Sciences, Dakota State University.\n\nLeads Day 2 — panellist, Session 3, on the South Dakota clinic model.\n\n\n\n\n\n\n\n\n\n\n\nNoteDay 1 sessions 1, 2, 4, 5, 6 and 7\n\n\n\n\n\nNot yet attributed. The source agenda names a presenter only for Session 3. tktk"
+    "text": "Presenters\n\n\n\n\n\nRyan Straight\nAssistant Professor, College of Information Science, University of Arizona.\n\nLeads Day 1, Session 3, AI ethics, bias & academic integrity. Also contributes to Sessions 2 and 4.\n\nryanstraight@arizona.edu · ORCID\n\n\n\n\n\n\n\nPaul Wagner\nDirector of Workforce Development and Professor of Practice, Arizona Cybersecurity Academy, College of Information Science, University of Arizona.\n\nLeads Day 2, Sessions 1, 4, and the three Clinic-in-a-Box tabletop sessions. Panelist, Session 3.\n\n\n\n\n\n\n\n\nRob Honomichl\nDirector of Cybersecurity Education and Assistant Professor, Arizona Cybersecurity Academy, College of Information Science, University of Arizona.\n\nLeads Day 1, Session 4 (with Sandra Leiterman and Ryan Straight). Day 2, Sessions 1 and 2. Panelist, Session 3.\n\n\n\n\n\n\n\n\nSandra Leiterman\nDirector of Cybersecurity Education and Outreach, CORE (Cyberspace Operations Research and Education), University of Arkansas at Little Rock.\n\nLeads Day 1, Sessions 5 and 6, and co-presents Session 4. Day 2, Panelist, Session 3, on the Arkansas clinic model. Host institution.\n\n\n\n\n\n\n\n\nKyle Cronin\nProfessor, Chair of the Department of Cyber Defense, and Coordinator for Academic Computing, The Beacom College of Computer & Cyber Sciences, Dakota State University.\n\nLeads Day 1, Session 2 (with Ryan Straight). Day 2, panelist, Session 3, on the South Dakota clinic model."
   },
   {
     "objectID": "index.html#practical",
     "href": "index.html#practical",
     "title": "CyberAI Educator Workshop",
     "section": "Practical information",
-    "text": "Practical information\n\n  \n     Venue\n    CORE Center, University of Arkansas at Little Rock.\n    tktk — building, room, and parking\n  \n  \n     Bring\n    A laptop. Several sessions are hands-on, and the Day 2 tabletop exercise runs on your own machine.\n    tktk — any accounts or software needed in advance\n  \n  \n     Wifi\n    tktk — guest network and access details\n  \n  \n     Meals\n    Coffee and light refreshments on arrival both mornings. Lunch is on the schedule both days.\n    tktk — provided, or on your own?\n  \n  \n     Hours\n    Doors at 8:30 both days. Day 1 ends 4:30, Day 2 ends 4:00.\n  \n  \n     Questions\n    ryanstraight@arizona.edu"
+    "text": "Practical information\n\n  \n     Venue\n    CORE Center, University of Arkansas at Little Rock, 2801 S University Ave.\n    Free open parking, and a campus map will be circulated before the workshop. If you need\n    accessible parking, contact Sandra Leiterman and she will arrange Lot 8.\n  \n  \n     Bring\n    A laptop. Several sessions are hands-on, and the Day 2 tabletop exercise runs on your own machine.\n    If any session needs software or an account set up beforehand, it will be posted here\n    ahead of the workshop.\n  \n  \n     Wifi\n    Guest network details are handed out on arrival, so there's nothing to set up in advance.\n  \n  \n     Meals\n    Coffee and light refreshments on arrival both mornings. Lunch is provided on-site\n    both days, so nobody has to go out in the heat.\n    Tell Sandra Leiterman about any allergies or dietary restrictions as early as you can.\n  \n  \n     Hours\n    Doors at 8:30 both days. Day 1 ends 4:30, Day 2 ends 4:00.\n  \n  \n     Weather\n    Extremely hot both days. Dress for the walk in from parking, and bring a layer,\n    because the air conditioning inside more than compensates.\n  \n  \n     Questions\n    ryanstraight@arizona.edu"
   },
   {
     "objectID": "index.html#colophon",
     "href": "index.html#colophon",
     "title": "CyberAI Educator Workshop",
     "section": "About this site",
-    "text": "About this site\n\nAI contribution\nThis site was drafted with AI assistance (Claude). I set the structure, supplied the source agenda, directed the writing, and reviewed and edited everything here. I’m responsible for its accuracy. AI was not used to make any decision about a participant, and it isn’t used anywhere in the workshop’s research component.\nThe same statement is on the disclosure page, because asking teachers to disclose and not doing it yourself is a bad look.\nSession materials are the work of the presenter named on each session, and each presenter speaks for their own.\nBuilt with Quarto. Source on GitHub. Contact ryanstraight@arizona.edu."
+    "text": "About this site\n\nAI contribution\nThis site was drafted with AI assistance (Claude). I set the structure, supplied the source agenda, directed the writing, and reviewed and edited everything here. I’m responsible for its accuracy. AI was not used to make any decision about a participant, and it isn’t used anywhere in the workshop’s research component.\nThe same statement is on the disclosure page, which suggests teachers do the same for materials they make this way.\nSession materials are the work of the presenter named on each session, and each presenter speaks for their own.\nBuilt with Quarto. Source on GitHub. Contact ryanstraight@arizona.edu."
+  },
+  {
+    "objectID": "sessions/day1-s2-foundations.html",
+    "href": "sessions/day1-s2-foundations.html",
+    "title": "AI Foundations: What Teachers Need to Know",
+    "section": "",
+    "text": "The rest of the workshop assumes you know what these tools actually are, so this is the hour that puts that in place. What a large language model does mechanically, why that explains both what it’s good at and how it fails, and which of the things people commonly believe about them are wrong.\nYou don’t need a technical background for any of this. The goal is that by the end of the hour you can predict, before you try it, whether a given classroom task is one these tools will handle well."
+  },
+  {
+    "objectID": "sessions/day1-s2-foundations.html#what-this-session-covers",
+    "href": "sessions/day1-s2-foundations.html#what-this-session-covers",
+    "title": "AI Foundations: What Teachers Need to Know",
+    "section": "",
+    "text": "The rest of the workshop assumes you know what these tools actually are, so this is the hour that puts that in place. What a large language model does mechanically, why that explains both what it’s good at and how it fails, and which of the things people commonly believe about them are wrong.\nYou don’t need a technical background for any of this. The goal is that by the end of the hour you can predict, before you try it, whether a given classroom task is one these tools will handle well."
+  },
+  {
+    "objectID": "sessions/day1-s2-foundations.html#session-outline",
+    "href": "sessions/day1-s2-foundations.html#session-outline",
+    "title": "AI Foundations: What Teachers Need to Know",
+    "section": "Session outline",
+    "text": "Session outline\n\n\n\n\n\n\n\nTime\nSegment\n\n\n\n\n~15 min\nWhat a language model actually does\n\n\n~25 min\nWhere it’s strong, where it fails, and why those are the same fact\n\n\n~20 min\nCommon misconceptions, and questions"
+  },
+  {
+    "objectID": "sessions/day1-s2-foundations.html#key-points",
+    "href": "sessions/day1-s2-foundations.html#key-points",
+    "title": "AI Foundations: What Teachers Need to Know",
+    "section": "Key points",
+    "text": "Key points\n\nA language model predicts likely next words. Everything it does well and everything it gets wrong follows from that one fact.\nFluency and accuracy are separate properties. Confident, well-formed, and wrong is the normal failure, not an unusual one.\nThe reliable rule of thumb: these tools are strong when you supply the content and ask them to change its form, and weak when you ask them to supply the content.\nMost of what people believe about how these tools learn, remember, and search is wrong in ways that matter for classroom use."
+  },
+  {
+    "objectID": "sessions/day1-s2-foundations.html#what-a-language-model-actually-does",
+    "href": "sessions/day1-s2-foundations.html#what-a-language-model-actually-does",
+    "title": "AI Foundations: What Teachers Need to Know",
+    "section": "What a language model actually does",
+    "text": "What a language model actually does\nA large language model is a system that has been trained to predict what word comes next, across an enormous amount of text. That’s the whole mechanism. Everything else, the conversation, the essay, the lesson plan, is that prediction running over and over.\nBe blunt about what that rules out. The model isn’t looking anything up. It has no database it consults and no notion of a source. When it produces a citation, it’s producing the sequence of words a citation tends to look like. That sequence is sometimes a real paper and sometimes isn’t, and the model has no way to tell the difference, because from the inside there’s no difference.\nThis is also why the output is so fluent. Fluency is what the training optimizes for. Accuracy comes along for the ride when the training text happened to be accurate and consistent, and it doesn’t when the text was thin, contested, or absent."
+  },
+  {
+    "objectID": "sessions/day1-s2-foundations.html#where-its-strong-where-it-fails",
+    "href": "sessions/day1-s2-foundations.html#where-its-strong-where-it-fails",
+    "title": "AI Foundations: What Teachers Need to Know",
+    "section": "Where it’s strong, where it fails",
+    "text": "Where it’s strong, where it fails\n\nStrong: you supply the content, it changes the form\nSummarizing a document you paste in. Rewriting your paragraph at a sixth-grade reading level. Turning your rubric into a student-facing checklist. Translating your worksheet. Reformatting your notes into slides. Explaining your own text back to you in different terms.\nIn all of these the substance is already in front of the model. It isn’t being asked to know anything, only to restate. That’s the task the mechanism is good at, and it’s most of what a teacher needs.\n\n\nWeak: you ask it to supply the content\nFacts it has to recall. Citations. Anything numeric. Recent events. Anything where being almost right is the same as being wrong.\nThis is the failure that catches people. The model doesn’t know when it doesn’t know. It has no internal signal for the difference between a well-supported answer and a fabricated one, so it delivers both in the same confident register. A human expert hedges when they’re unsure. This won’t.\n\n\nThe rule of thumb\nBefore you use one of these tools for something, ask where the content is coming from. If it’s coming from you and the tool is changing its shape, you’re on solid ground. If it’s coming from the tool, you have to check it, and checking it often costs more than doing it yourself would have.\nThat single question predicts most of what you’ll experience in Sessions 4, 5 and 6."
+  },
+  {
+    "objectID": "sessions/day1-s2-foundations.html#common-misconceptions",
+    "href": "sessions/day1-s2-foundations.html#common-misconceptions",
+    "title": "AI Foundations: What Teachers Need to Know",
+    "section": "Common misconceptions",
+    "text": "Common misconceptions\n“It searches the internet.” Usually not. Unless a tool explicitly says it’s browsing or retrieving, it’s generating from training, and the training has a cutoff date.\n“It learns from our conversation.” Not in the way people mean. Some products have a memory feature that saves notes about you, but a plain chat doesn’t change the model. Nothing your students type is teaching it.\n“It’ll get the math right, it’s a computer.” It’s a language model, not a calculator. Arithmetic is a sequence-prediction problem to it, and it approximates.\n“It can tell you whether something was AI-written.” It can’t, and it will confidently say yes or no when asked. More on this in Session 3.\n“It understands what it’s saying.” Set this one aside rather than argue it. For classroom purposes the question doesn’t need answering, because the behavior is the same either way, and the behavior is what you’re planning around."
+  },
+  {
+    "objectID": "sessions/day1-s2-foundations.html#resources",
+    "href": "sessions/day1-s2-foundations.html#resources",
+    "title": "AI Foundations: What Teachers Need to Know",
+    "section": "Resources",
+    "text": "Resources\nKyle and I will add a short reading list here before the workshop."
   },
   {
     "objectID": "resources/ai-disclosure.html",
     "href": "resources/ai-disclosure.html",
     "title": "AI Disclosure Statements",
     "section": "",
-    "text": "Draft. Needs a pass against UA’s GenAI three-tier disclosure framework before this goes out, so the language lines up with what Arizona already asks for. tktk\nMost AI policies fail the same way. They’re written once, buried in a syllabus, and phrased so broadly that nobody, including the teacher, can say whether a given use was allowed.\nThe fix isn’t a longer policy. It’s a specific one, stated where students will actually run into it, and a habit of saying what you used yourself.\nEverything below is meant to be lifted and edited. Nothing here is legal advice or your district’s policy, and where the two conflict, your district wins."
+    "text": "Most AI policies fail the same way. They’re written once, buried in a syllabus, and phrased so broadly that nobody, including the teacher, can say whether a given use was allowed.\nWhat helps is a specific policy, stated where students will actually run into it, plus the habit of saying what you used yourself. Length has nothing to do with it.\nEverything below is meant to be lifted and edited. Nothing here is legal advice or your district’s policy, and where the two conflict, your district wins."
   },
   {
     "objectID": "resources/ai-disclosure.html#for-your-syllabus",
@@ -116,55 +172,111 @@
     "href": "sessions/day1-s3-ethics.html",
     "title": "AI Ethics, Bias & Academic Integrity",
     "section": "",
-    "text": "Stub. Structure only; Ryan writes the content. Not linked from the schedule yet. The “to come” pill on Session 3 becomes a link once there is something here worth reading."
+    "text": "Most schools responded to generative AI by buying a detector and writing a policy that points at it. This session argues that both halves of that response are weaker than they look, and that the second one can be fixed. We’ll work through what detection tools actually measure, who gets caught by them and who doesn’t, and how to write a responsible-use policy that survives contact with a real classroom.\nBring a policy if you have one (your school’s, your department’s, or your own syllabus language). You’ll get time to mark it up."
   },
   {
     "objectID": "sessions/day1-s3-ethics.html#what-this-session-covers",
     "href": "sessions/day1-s3-ethics.html#what-this-session-covers",
     "title": "AI Ethics, Bias & Academic Integrity",
-    "section": "What this session covers",
-    "text": "What this session covers\ntktk — one short paragraph a participant reads before deciding what to bring to it.\nThis session covers the limits of plagiarism detection, equity concerns, and how to write a responsible-use policy for your own classroom."
+    "section": "",
+    "text": "Most schools responded to generative AI by buying a detector and writing a policy that points at it. This session argues that both halves of that response are weaker than they look, and that the second one can be fixed. We’ll work through what detection tools actually measure, who gets caught by them and who doesn’t, and how to write a responsible-use policy that survives contact with a real classroom.\nBring a policy if you have one (your school’s, your department’s, or your own syllabus language). You’ll get time to mark it up."
   },
   {
     "objectID": "sessions/day1-s3-ethics.html#session-outline",
     "href": "sessions/day1-s3-ethics.html#session-outline",
     "title": "AI Ethics, Bias & Academic Integrity",
     "section": "Session outline",
-    "text": "Session outline\n\n\n\nTime\nSegment\n\n\n\n\n~10 min\ntktk\n\n\n~20 min\ntktk\n\n\n~15 min\ntktk"
+    "text": "Session outline\n\n\n\nTime\nSegment\n\n\n\n\n~10 min\nWhat detection tools actually do\n\n\n~20 min\nWho false positives land on\n\n\n~15 min\nWriting a policy you can defend"
   },
   {
     "objectID": "sessions/day1-s3-ethics.html#key-points",
     "href": "sessions/day1-s3-ethics.html#key-points",
     "title": "AI Ethics, Bias & Academic Integrity",
     "section": "Key points",
-    "text": "Key points\n\ntktk"
+    "text": "Key points\n\nDetection tools don’t detect AI. They estimate how statistically unsurprising a piece of writing is, which is a different thing.\nTested against a 2015 dissertation and a paragraph written by a language model this month, a commercial detector called both of them human.\nWhere these tools do err, the errors have historically fallen hardest on the students least able to absorb the cost of being wrongly accused.\nA policy that makes detector output the evidence has outsourced an academic-integrity judgment to a vendor.\nWhat holds up is writing permitted use into the assignment, in terms of what the assignment is trying to teach."
   },
   {
     "objectID": "sessions/day1-s3-ethics.html#the-detection-problem",
     "href": "sessions/day1-s3-ethics.html#the-detection-problem",
     "title": "AI Ethics, Bias & Academic Integrity",
     "section": "The detection problem",
-    "text": "The detection problem\ntktk — the evidence on AI-detection tools, false-positive rates, and who bears the cost of being wrongly flagged. This is the part teachers most often get bad information about."
+    "text": "The detection problem\n\nTwo documents\nI ran a test the week before this workshop, and the result is why this session exists in its current form.\nThe first document was a section of the literature review from my own doctoral dissertation. I wrote it in 2015. There was no large language model available to write it with, so whatever else is true of that text, it can’t contain AI-generated prose.\nThe second was a paragraph a language model wrote at my direction on the morning of July 27, 2026. I asked it to restate a passage of the same dissertation in plainer language. It’s machine-generated in the most straightforward sense available.\nI put both through commercial AI detectors.\n\n\n\n\n\n\n\n\n\n\nDocument\nProvenance\nGPTZero (model 4.7b)\nZeroGPT\nCopyleaks\n\n\n\n\nDissertation literature review, 1,779 words\nHuman, 2015\n100% human\n0.6% AI\n0% AI\n\n\nRestated paragraph, 334 words\nLLM, July 2026\n100% human\n0% AI\nnot yet run\n\n\n\nOne of those documents couldn’t have been written by a machine. The other couldn’t have been written by anything else. Both tools called both of them human. GPTZero used the same words each time: “We are highly confident this text is entirely human.” Not a hedge, not a maybe. The phrasing a teacher would act on.\nNow look at the ordering. ZeroGPT scored the 2015 dissertation at 0.6% AI and the machine-written paragraph at 0%. It didn’t just fail to tell them apart. It ranked them backwards. The one document in the pair that could not possibly contain AI-generated prose is the one it found marginally more suspicious.\nThe margin is small enough that neither text would be flagged by any sane threshold, and that’s the point. A weak signal you can compensate for by moving the cutoff. An arbitrary ordering leaves you nothing to move.\n\n\n\n\n\n\nNoteTwo caveats, since someone will ask\n\n\n\n\n\nThe dissertation was run on GPTZero’s Advanced scan and the paragraph on its Basic scan (the free tier allows one Advanced scan per day). The two documents also differ substantially in length. So two variables moved, not one, and this is a demonstration rather than an experiment.\nNote which way the length difference cuts, though. Shorter text gives a detector less to work with, which should make the machine-written paragraph the harder case. It was still called human with high confidence. The confound runs against the tool, not in its favor.\n\n\n\n\n\nWhat the tool measures\nThis isn’t a malfunction. A detector doesn’t recognize machine authorship, because machine authorship leaves no signature to recognize. What it measures is predictability, roughly how closely word choice tracks what a language model would have chosen next. That’s a proxy, and the gap between the proxy and the thing it stands for is where every one of these results lives.\nTwo things follow that a better version doesn’t fix.\nThe first is that the signal is weakest where the stakes are highest. A short assignment gives the tool less to work with than a long one, so the scores that matter most in a middle-school classroom are the least reliable ones. OpenAI withdrew its own classifier in 2023 on the grounds that accuracy was too low to be useful. A company with every commercial reason to keep it running concluded it couldn’t.\nThe second is the base rate, and it’s the part people skip. Suppose a tool is right most of the time, and most students in a class of thirty didn’t use AI. A meaningful share of the flags it raises will still be wrong. The number a vendor quotes is accuracy on their own test set. The number that matters to you is the chance that this flagged student actually did it, and that number is lower, sometimes much lower. That’s the difference between a tool that identifies cheating and a tool that generates a list of students to go and accuse.\n\n\nWhy they now under-flag\nThere’s a further wrinkle, and it explains the table above. After the false-positive research of 2023 and the press that followed it, vendors recalibrated toward not accusing people. Several now market low false-positive rates as a feature.\nThat’s the right direction to have moved in. But a detector tuned to almost never accuse falsely is also a detector that almost never catches anything. The trade was sensitivity for safety, and it shifted the worry. Wrongful accusation was the 2023 problem. The 2026 problem is that the tool may be doing nothing for you at all."
   },
   {
     "objectID": "sessions/day1-s3-ethics.html#equity",
     "href": "sessions/day1-s3-ethics.html#equity",
     "title": "AI Ethics, Bias & Academic Integrity",
     "section": "Equity",
-    "text": "Equity\ntktk — access differences, language background, disability accommodation, and how detection-based policy lands unevenly."
+    "text": "Equity\nWhen these tools do get it wrong, the errors aren’t distributed evenly.\nLiang and colleagues ran a set of widely used GPT detectors against writing by native and non-native English speakers. The detectors classified the native-speaker samples almost perfectly. They misclassified more than half of the non-native samples as AI-generated.\nTwo things about that study matter for how much weight to put on it. It’s strong evidence, published, replicated in its own design, mechanistically explained. And it’s from 2023, run against the detectors of that moment. The recalibration described above happened partly because of findings like this one. So treat it as evidence about what these tools do when they’re tuned to catch things, rather than as a current measurement of any particular product.\nThe mechanism is the part that outlives the vintage. When the researchers enriched the vocabulary in the non-native samples, the misclassification rate fell. When they simplified the native-speaker samples, it rose. The tools are reading lexical range as evidence of humanity, so they penalize a limited English vocabulary and reward a large one, which is a proxy for the thing schools are supposed to be teaching rather than punishing.\nFollow that through to the students in front of you. An English learner writes plainly because they’re still acquiring the language. A student using assistive or predictive writing technology under an IEP produces smoothed, conventional prose by design. A student who’s been taught to write to a formula writes to the formula. Each of these is a student doing the thing we asked, and each of them is likelier to be flagged than a confident writer who never had to think about it.\nMeanwhile the students who can pay for the better tools are also the students likelier to produce the idiosyncratic prose that reads as human. The tool sorts partly on advantage.\nThen consider what an accusation costs. It costs a confident student one uncomfortable conversation. It costs a student who’s already unsure whether they belong considerably more, and some of them don’t come back from it."
   },
   {
     "objectID": "sessions/day1-s3-ethics.html#writing-a-responsible-use-policy",
     "href": "sessions/day1-s3-ethics.html#writing-a-responsible-use-policy",
     "title": "AI Ethics, Bias & Academic Integrity",
     "section": "Writing a responsible-use policy",
-    "text": "Writing a responsible-use policy\ntktk — the practical takeaway. A teacher should leave able to draft or revise a policy for their own classroom.\n\n\n\n\n\n\nTipTakeaway\n\n\n\ntktk — the one thing participants should carry out of the room."
+    "text": "Writing a responsible-use policy\nThe practical half. A policy is doing its job when a student can tell, before starting, what they’re allowed to do, and when you can act on a suspicion without a detector score being your only evidence.\nFour things make the difference.\n\nSet the rule per assignment, not per course\nBlanket bans fail because they aren’t believed and aren’t enforceable. Blanket permission fails because it doesn’t distinguish between tasks. Whether AI use is acceptable depends on what the specific task is meant to develop, and brainstorming and final prose aren’t the same question.\n\n\nSay what the assignment is for\n“You may not use AI” invites lawyering. “This assignment exists so you practice building an argument from sources, so the argument and the prose need to be yours. Use AI to check your grammar afterwards if you like.” That version tells the student what’s actually being protected, and it holds up when they ask why.\n\n\nDefine disclosure concretely\nName where it goes, what it says, and how long it should be. A one-line note at the end of the document, saying what tool was used and for what, is enough. Unenforced disclosure requirements just teach students that the rules are decorative.\n\n\nSeparate suspicion from evidence\nDecide in advance what you do when something looks off, and make the first step a conversation rather than a charge. Ask the student to talk you through their drafting. That conversation is more diagnostic than any score, and it’s survivable when you turn out to be wrong. Which you sometimes will be.\n\n\n\n\n\n\nTipTakeaway\n\n\n\nWrite the rule into the assignment, not into the detector. A policy that explains what the work is for gives students something they can follow and gives you something you can defend. A policy that rests on a similarity score gives you neither."
   },
   {
     "objectID": "sessions/day1-s3-ethics.html#resources",
     "href": "sessions/day1-s3-ethics.html#resources",
     "title": "AI Ethics, Bias & Academic Integrity",
     "section": "Resources",
-    "text": "Resources\ntktk — readings, policy templates, and links. Prefer permanent URLs and DOIs; no link shorteners."
+    "text": "Resources\nLiang, W., Yuksekgonul, M., Mao, Y., Wu, E., & Zou, J. (2023). GPT detectors are biased against non-native English writers. Patterns, 4(7), 100779. https://doi.org/10.1016/j.patter.2023.100779\nMore to come. Policy templates and a short reading list will be added here before the workshop."
+  },
+  {
+    "objectID": "sessions/day1-s4-planning-feedback.html",
+    "href": "sessions/day1-s4-planning-feedback.html",
+    "title": "Lesson Planning, Content Creation, Feedback and Grading",
+    "section": "",
+    "text": "The practical hour. Building lesson materials, differentiating them, and drafting feedback, using AI for the parts of that work where it’s reliable.\nThis is the session where Session 2’s rule of thumb earns its keep. Nearly everything a teacher wants help with here is a task where you already have the content and you need it in a different shape: a rubric turned into student-facing language, a reading leveled for three different groups, a worksheet built from a text you chose, feedback drafted against work a student handed you. That’s the side of the line where these tools are strong.\nBring something real to work on. A unit you’re teaching this fall, a rubric you’re not happy with, a worksheet you’d like three versions of."
+  },
+  {
+    "objectID": "sessions/day1-s4-planning-feedback.html#what-this-session-covers",
+    "href": "sessions/day1-s4-planning-feedback.html#what-this-session-covers",
+    "title": "Lesson Planning, Content Creation, Feedback and Grading",
+    "section": "",
+    "text": "The practical hour. Building lesson materials, differentiating them, and drafting feedback, using AI for the parts of that work where it’s reliable.\nThis is the session where Session 2’s rule of thumb earns its keep. Nearly everything a teacher wants help with here is a task where you already have the content and you need it in a different shape: a rubric turned into student-facing language, a reading leveled for three different groups, a worksheet built from a text you chose, feedback drafted against work a student handed you. That’s the side of the line where these tools are strong.\nBring something real to work on. A unit you’re teaching this fall, a rubric you’re not happy with, a worksheet you’d like three versions of."
+  },
+  {
+    "objectID": "sessions/day1-s4-planning-feedback.html#session-outline",
+    "href": "sessions/day1-s4-planning-feedback.html#session-outline",
+    "title": "Lesson Planning, Content Creation, Feedback and Grading",
+    "section": "Session outline",
+    "text": "Session outline\n\n\n\nTime\nSegment\n\n\n\n\n~20 min\nPlanning and content creation, worked live\n\n\n~20 min\nDifferentiation and accessibility of materials\n\n\n~20 min\nFeedback and grading, and where the limits are"
+  },
+  {
+    "objectID": "sessions/day1-s4-planning-feedback.html#key-points",
+    "href": "sessions/day1-s4-planning-feedback.html#key-points",
+    "title": "Lesson Planning, Content Creation, Feedback and Grading",
+    "section": "Key points",
+    "text": "Key points\n\nThe tasks to hand over are the ones where you supply the substance and the tool changes the form. Ask where the content is coming from before you start.\nDifferentiation is the strongest case in the whole workshop. Producing four versions of one reading at four levels is work teachers rarely have time to do by hand.\nFeedback drafting is real help. Grading isn’t the same task, and the difference matters both practically and ethically.\nWhatever comes out has your name on it. Check it before it reaches a student."
+  },
+  {
+    "objectID": "sessions/day1-s4-planning-feedback.html#planning-and-content-creation",
+    "href": "sessions/day1-s4-planning-feedback.html#planning-and-content-creation",
+    "title": "Lesson Planning, Content Creation, Feedback and Grading",
+    "section": "Planning and content creation",
+    "text": "Planning and content creation\nThe reliable pattern is to give the tool your material and ask for a transformation of it. Your unit objectives into a lesson sequence. Your chosen text into comprehension questions. Your rubric into a checklist a fourteen-year-old can actually use. Your slide notes into a handout.\nThe pattern that disappoints people is asking for the substance itself. “Write me a lesson on the water cycle” produces something generic that you then rewrite, and the rewriting costs about what writing it would have. “Here is my lesson on the water cycle, give me three exit-ticket questions at different difficulty levels” produces something you can use.\nBoth look like reasonable requests. The second one works because you brought the content."
+  },
+  {
+    "objectID": "sessions/day1-s4-planning-feedback.html#differentiation-and-accessibility",
+    "href": "sessions/day1-s4-planning-feedback.html#differentiation-and-accessibility",
+    "title": "Lesson Planning, Content Creation, Feedback and Grading",
+    "section": "Differentiation and accessibility",
+    "text": "Differentiation and accessibility\nThis is the strongest case in the workshop.\nProducing the same reading at three levels, with a vocabulary list for the students who need one, and a version that works with a screen reader, is valuable and time-consuming. Most teachers do a fraction of it, not because they don’t want to but because the day doesn’t contain the hours. This is transformation work of the kind these tools handle well, and the source text is yours.\n\n\n\n\n\n\nCautionTwo Cautions\n\n\n\nLeveling a text changes it. Check that what came back still says what the original said, particularly with anything technical or historical, because simplification quietly drops qualifiers.\nAnd a simplified text isn’t the same thing as an accommodation. An IEP specifies particular supports, and the fact that a tool can produce something adjacent to one doesn’t mean it satisfies it."
+  },
+  {
+    "objectID": "sessions/day1-s4-planning-feedback.html#feedback-and-grading",
+    "href": "sessions/day1-s4-planning-feedback.html#feedback-and-grading",
+    "title": "Lesson Planning, Content Creation, Feedback and Grading",
+    "section": "Feedback and grading",
+    "text": "Feedback and grading\nThese are different tasks carrying different risks.\n\nDrafting feedback\nThis one’s a good use. You’ve read the work, you know what you want to say, and you want it written out warmly and at length for thirty students. Give the tool the student’s work and the points you want made, then edit what comes back. The judgment stayed with you.\n\n\nAssigning a grade\nDifferent thing entirely. A score is a decision about a student, and these tools produce plausible-looking scores with no consistency between runs and no defensible account of how they got there. If a parent asks why their child got a 74, “the model said so” isn’t an answer any of us wants to give.\nThere’s also a straightforward privacy question. Pasting student work into a commercial tool sends it to a third party, and depending on your district and what’s identifiable in it, that might not be something you’re permitted to do. Check before, not after."
+  },
+  {
+    "objectID": "sessions/day1-s4-planning-feedback.html#resources",
+    "href": "sessions/day1-s4-planning-feedback.html#resources",
+    "title": "Lesson Planning, Content Creation, Feedback and Grading",
+    "section": "Resources",
+    "text": "Resources\nTo be added before the workshop."
   }
 ]
