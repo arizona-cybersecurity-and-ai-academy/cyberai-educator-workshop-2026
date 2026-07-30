@@ -66,6 +66,15 @@ exercise again with your own students, that is where it lives. Access requires a
 and whether that extends to educators outside the University of Arizona is a question for
 Paul Wagner.
 
+[Tannery Group: an instructor walkthrough](https://arizona-cybersecurity-and-ai-academy.github.io/ciab-tannery-example/)
+is the companion to that session, and it was built during this workshop. You cannot get into
+the CiaB instructor system yet, so it walks the same ground by hand using a real client
+packet: the company, its five stakeholders, the scan results, the policy set, and the
+modelled attack scenarios. It is organized around a question rather than a document dump,
+which is what you can do with a client profile to teach students how to handle clients from
+a cybersecurity position. Every page also downloads as a PDF if you would rather hand it out
+than link to it.
+
 [US Cyber Range](https://www.uscyberrange.org/) offers secure cloud-based environments for
 student practice.
 
