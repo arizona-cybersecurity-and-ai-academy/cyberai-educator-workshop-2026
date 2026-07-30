@@ -35,8 +35,12 @@ website:
       - text: Practical
         href: index.qmd#practical
     right:
-      - text: "Take-away resources"
-        href: resources/ai-disclosure.qmd
+      - text: "Resources"
+        menu:
+          - text: "Educator Resource Guide"
+            href: resources/educator-resources.qmd
+          - text: "AI Disclosure Statements"
+            href: resources/ai-disclosure.qmd
 
   page-footer:
     background: "#0C234B"

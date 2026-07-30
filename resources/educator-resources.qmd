@@ -1,0 +1,166 @@
+---
+title: "Educator Resource Guide"
+subtitle: "Cybersecurity and AI, for people who have to teach it on Monday"
+toc: true
+toc-title: "Jump to"
+---
+
+<!-- P01 -->
+Everything here is free or free to try, already exists, and was built for people in your
+position. None of it requires a purchase order.
+
+The sections answer different questions. Where do I get material I don't have time to
+write? Where do students actually put their hands on something? What do I point the
+interested ones at? And when an administrator asks what standard this maps to, what do I
+say?
+
+<!-- P02 -->
+## Curriculum you can take and use
+
+Writing a unit from nothing is the slowest way to teach cybersecurity.
+
+[Teach Cyber](https://www.teachcyber.org/) is built specifically for secondary
+cybersecurity teachers, and it carries professional development alongside the curriculum.
+If you are teaching this for the first time, start here.
+
+[Cyber.org](https://cyber.org/) covers the full K-12 range and has a "Find Curricula" tool
+that filters to your grade band.
+
+[CLARK Center](https://clark.center/) is a reviewed digital library of cybersecurity
+curriculum, searchable by topic, grade band, and how much class time you actually have.
+Lessons arrive with objectives and materials attached, so you can search for something that
+fits your week instead of building it. CLARK4Kids is the younger-learner arm, with units
+like Online Gaming Safety and Password Pros.
+
+[NCYTE](https://www.ncyte.net/), the National Cybersecurity Training and Education Center,
+is faculty-facing and skews toward the postsecondary end.
+
+[RING](https://www.ring-cyber.org/) is a free online cybersecurity course for students and
+educators.
+
+[CodeHS](https://codehs.com/curriculum/cybersecurity) runs a structured 6-12 cybersecurity
+sequence on its own platform, which suits a school already using CodeHS for CS.
+
+[Supplement to CSEC 2017](https://doi.org/10.1145/3715982), *Foundational Cybersecurity
+Content and Instructional Guidance for Secondary and Postsecondary Cybersecurity Education*
+(ACM, January 2025). The original CSEC 2017 guidelines were written for university degree
+programs. This supplement extends them to secondary education, which makes it the closest
+thing that exists to an authoritative answer to "what should a high school cybersecurity
+course cover?" You teach from CLARK. You cite this when someone asks you to justify what
+you chose to teach.
+
+<!-- P03 -->
+## Hands-on environments
+
+Reading about a network and breaking one are different activities, and the second is what
+students remember.
+
+[CyberHub](https://saguaroscyberhub.org) is the Cyber Saguaros' platform at the University
+of Arizona, described on the site as "the official cybersecurity lab, cyber warfare range,
+and eLearning platform." Four things live there. The Crucible is a capture-the-flag
+environment with isolated practice lanes and live scoring. CyberLabs provides on-demand
+virtual environments for coursework and practice. The Forge is a malware analysis sandbox.
+And Clinic-in-a-Box is what the Day 2 afternoon tabletop runs on, an AI-assisted tool that
+walks a team through a cyber risk assessment against a mock client. If you want to run that
+exercise again with your own students, that is where it lives. Access requires an account,
+and whether that extends to educators outside the University of Arizona is a question for
+Paul Wagner.
+
+[US Cyber Range](https://www.uscyberrange.org/) offers secure cloud-based environments for
+student practice.
+
+Cyber Arena comes through the National Cybersecurity Teaching Academy. It was supplied
+without a link, so ask Paul Wagner for the access route.
+
+CSforAR, Domain 5 runs professional development on networking and cybersecurity, including
+building networks with Raspberry Pi computers. Arkansas-specific, and the one item on this
+page most likely to already have a person attached to it in your district.
+
+<!-- P04 -->
+## Competitions
+
+Competitions do something a lesson can't: they give a student a reason to keep going after
+the bell. All three run on their own calendars, so check when registration opens before you
+look at anything else.
+
+[CyberPatriot](https://www.uscyberpatriot.org/) is the Air & Space Forces Association's
+national youth cyber program and the most K-12-native option here. Teams compete to defend
+virtual networks, and the program is built for a teacher-coach who isn't a security
+professional.
+
+[National Cyber League](https://nationalcyberleague.org/) runs individual and team
+capture-the-flag competitions, pitched older than CyberPatriot.
+
+[SANS Holiday Hack Challenge](https://www.sans.org/cyber-ranges/holiday-hack-challenge) is
+free, annual, and deliberately approachable. A student can try it alone over a break
+without you organizing anything, which makes it a cheap way to find out which of your
+students light up when handed a real puzzle.
+
+<!-- P05 -->
+## AI in the classroom
+
+[MagicSchool](https://www.magicschool.ai/) is the teacher-facing tool used in these PD
+sessions for classifying data, exploring data pictures, and building out solutions.
+
+[Machine Learning for Kids](https://machinelearningforkids.co.uk/) lets students build and
+break small models in a browser, on data they choose themselves. Good for showing the
+limits of a model rather than describing them.
+
+[NC State AI Teaching Resources](https://teaching-resources.delta.ncsu.edu/ai-prompting-basics/)
+covers prompting basics for instructors.
+
+[Turnitin: guiding responsible AI prompts](https://www.turnitin.com/blog/6-ways-to-guide-responsible-ai-prompts-for-learning).
+
+[Databricks: AI literacy](https://www.databricks.com/blog/ai-literacy).
+
+Both of those last two are vendor-authored. Useful, and read them knowing who wrote them.
+
+<!-- P06 -->
+## Careers and work roles
+
+[IBM SkillsBuild](https://skillsbuild.org/) has a student-facing catalog for exploring
+cybersecurity career paths.
+
+[NICE Framework](https://niccs.cisa.gov/tools/nice-framework) is the NIST National
+Initiative for Cybersecurity Education framework, published through CISA. It describes
+cybersecurity work as roles, tasks, knowledge, and skills, and it is the vocabulary most
+American funding and pathway documents are written in.
+
+[DoD Cyber Workforce Framework](https://dodcio.defense.gov/Cyber-Workforce/DCWF/) is the
+Department of Defense's own version. It matters if your students may head toward federal or
+defense-contractor work, and it does not line up cleanly with NICE.
+
+One caution, because it will save you an argument later. These frameworks describe
+*professional* work at a level of detail K-12 standards do not, so a lesson does not cleanly
+"map to" a NICE work role no matter how much a form wants it to. Claim alignment where you
+can defend it and say so plainly where you can't. A partial map you can defend will hold up.
+A complete one won't survive the first person who checks it.
+
+<!-- P07 -->
+## The CAE community
+
+If your school is anywhere near a cybersecurity pathway conversation, this is where the
+national infrastructure lives.
+
+[CAE Community](https://www.caecommunity.org/) is the hub for the National Centers of
+Academic Excellence in Cybersecurity: professional development, working groups, and the
+people to ask. Membership costs nothing and it is the fastest route to a colleague who has
+already solved your problem.
+
+[CAE Resource Directory](https://caeresource.directory/browse) indexes what that community
+has produced, including labs, modules, outreach materials, and competition prep. It is
+broader and less curated than CLARK, so go there when you know roughly what you want but
+not what it is called.
+
+[NCAE-C Document Library](https://www.cyber.mil/ncae-c/document-library) holds the official
+designation documents and Knowledge Units. It is the primary source, which matters when a
+claim has to survive scrutiny.
+
+<!-- P08 -->
+## Credits
+
+Paul Wagner and the workshop presenters supplied these links. Each was checked and
+described independently. Where a description could not be verified, it is not on this page.
+
+Related: the [AI disclosure statements](ai-disclosure.qmd) page has policy and disclosure
+language you can lift for your own syllabus.

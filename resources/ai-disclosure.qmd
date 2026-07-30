@@ -136,15 +136,6 @@ about the work, and disclosure norms that make honesty the easy path.
 
 *This gets covered in more depth in Day 1, Session 3.*
 
-## This page, disclosed
-
-Practising what the section above asks for.
-
-This page and the rest of this site were drafted with AI assistance (Claude). Ryan Straight
-set the structure, supplied the source agenda, directed the writing, and reviewed and edited
-all of it. He's responsible for its accuracy. AI was not used to make any decision about a
-participant, and it isn't used anywhere in the workshop's research component.
-
 ## Adapting these
 
 Three things to check before you use any of the above.
@@ -157,3 +148,14 @@ exists to build a skill you can't get any other way" gets followed more often.
 
 Name the tools you mean. "Generative AI" is abstract to a fourteen-year-old. "ChatGPT,
 Gemini, Copilot, or anything like them" is not.
+
+## This page, disclosed
+
+Practicing what the sections above ask for. This page and the rest of this site were
+drafted with AI assistance (Claude). Ryan Straight set the structure, supplied the source
+agenda, directed the writing, and reviewed and edited all of it. He's responsible for its
+accuracy. AI was not used to make any decision about a participant, and it isn't used
+anywhere in the workshop's research component.
+
+Related: the [Educator Resource Guide](educator-resources.qmd) collects curriculum,
+hands-on environments, competitions, and the workforce frameworks.

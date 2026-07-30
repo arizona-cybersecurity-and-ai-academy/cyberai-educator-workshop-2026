@@ -1021,3 +1021,70 @@ body:has(.hero-section) #title-block-header {
   padding-top: 0.8em;
   margin-top: 1em;
 }
+
+// ============================================================
+// In-prose links (2026-07-30)
+//
+// The base rule above sets links to $ua-blue (#0C234B) with no underline.
+// Body copy is #333333. Two dark neutrals a few shades apart, with the
+// underline removed, means a link inside a paragraph is indistinguishable
+// from the text around it until the pointer lands on it — and a keyboard or
+// touch reader never gets that hover. Colour alone is not a sufficient cue
+// (WCAG 1.4.1), and here it was barely even colour.
+//
+// Fixed by scoping a proper link treatment to prose contexts only. Navigation,
+// cards, pills, buttons and the timeline carry their own affordances and are
+// reset below, so this does not flatten the rest of the design.
+// ============================================================
+
+main.content {
+  p a, li a, td a, dd a, blockquote a {
+    color: $ua-azurite;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba($ua-azurite, 0.45);
+    text-underline-offset: 0.16em;
+    transition: color 0.12s ease, text-decoration-color 0.12s ease;
+
+    &:hover {
+      color: $ua-red;
+      text-decoration-color: $ua-red;
+      text-decoration-thickness: 2px;
+    }
+
+    // Keyboard users get a visible target, not just a colour shift
+    &:focus-visible {
+      outline: 2px solid $ua-red;
+      outline-offset: 2px;
+      border-radius: 2px;
+      text-decoration-color: $ua-red;
+    }
+  }
+
+  // Components with their own link affordance keep it. Each of these already
+  // signals interactivity through card, button, or border styling, so an
+  // underline would be noise.
+  .tl-who a,
+  .tl-materials a,
+  .presenter-contact a,
+  .download-banner a,
+  .material-card a,
+  .reference-entry a,
+  .colophon a,
+  .fact a,
+  .stats-bar a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  // The facilitator names in the timeline keep their subtler underline,
+  // which the reset above would otherwise strip.
+  .tl-who a {
+    border-bottom: 1px solid rgba($ua-azurite, 0.3);
+
+    &:hover { border-bottom-color: rgba($ua-red, 0.5); }
+  }
+}
