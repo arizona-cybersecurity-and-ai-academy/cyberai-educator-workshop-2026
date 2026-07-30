@@ -121,86 +121,114 @@
   {
     "objectID": "resources/ai-disclosure.html",
     "href": "resources/ai-disclosure.html",
-    "title": "Resources",
+    "title": "AI Disclosure Statements",
     "section": "",
-    "text": "Two kinds of thing here. The first half is language you can lift for your own classroom — AI policies, disclosure statements, the words to hand students. The second half is everything free that already exists so you don’t have to build it: curriculum, student competitions, and the frameworks people will ask you to map to.\nNothing here is legal advice or your district’s policy, and where the two conflict, your district wins."
+    "text": "Most AI policies fail the same way. They’re written once, buried in a syllabus, and phrased so broadly that nobody, including the teacher, can say whether a given use was allowed.\nWhat helps is a specific policy, stated where students will actually run into it, plus the habit of saying what you used yourself. Length has nothing to do with it.\nEverything below is meant to be lifted and edited. Nothing here is legal advice or your district’s policy, and where the two conflict, your district wins."
   },
   {
     "objectID": "resources/ai-disclosure.html#for-your-syllabus",
     "href": "resources/ai-disclosure.html#for-your-syllabus",
-    "title": "Resources",
+    "title": "AI Disclosure Statements",
     "section": "For your syllabus",
     "text": "For your syllabus\nPick the one that matches what you actually want, then say why. The reason is the part students remember.\n\nAI is not permitted\nFor this course, all submitted work must be your own. Don't use generative AI tools\n(ChatGPT, Claude, Gemini, Copilot, and anything like them) to produce text, code, or\nimages you turn in.\n\nThe reason is simple: this course is about building the skill, and you can't build it by\nwatching something else do it. If you're stuck, come to me. That's what I'm for.\n\nIf you're unsure whether a tool counts, ask before you use it, not after.\n\n\nAI is permitted with disclosure\nYou may use generative AI tools in this course. If you do, tell me.\n\nAdd a short note at the end of anything you submit: which tool, what you asked it for,\nand what you did with what it gave you. Two or three sentences is plenty.\n\nUndisclosed AI use is an integrity violation. Disclosed AI use is just how you did the\nwork, and it won't cost you points.\n\n\nAI is expected\nThis course treats AI as a tool you're learning to use well, which means using it, being\nhonest about it, and being able to defend what came out.\n\nFor every assignment, submit your prompts along with your work, and flag anything the tool\nproduced that you kept without changing. You're responsible for everything you turn in,\nincluding whatever the tool got wrong."
   },
   {
     "objectID": "resources/ai-disclosure.html#for-a-specific-assignment",
     "href": "resources/ai-disclosure.html#for-a-specific-assignment",
-    "title": "Resources",
+    "title": "AI Disclosure Statements",
     "section": "For a specific assignment",
     "text": "For a specific assignment\nCourse-level policies get forgotten by week three. Restating the rule on the assignment itself is what actually works.\nAI on this assignment: [allowed / not allowed / allowed for X but not Y]\n\nIf allowed, add your disclosure note at the end. If you're not sure whether something\ncounts, ask me before the due date.\nA more specific version, for when the line falls inside the assignment rather than around it:\nFor this assignment you may use AI to brainstorm, outline, and check your grammar. Don't\nuse it to write the analysis, which is the part I'm actually grading.\n\nIf you used it, say so at the end: which tool, what for."
   },
   {
     "objectID": "resources/ai-disclosure.html#for-students-to-use",
     "href": "resources/ai-disclosure.html#for-students-to-use",
-    "title": "Resources",
+    "title": "AI Disclosure Statements",
     "section": "For students to use",
     "text": "For students to use\nGive them the words. Most students who don’t disclose aren’t hiding anything, they just don’t know what a disclosure is supposed to look like.\nAI use on this assignment: I used [tool] to [what you asked it to do]. I [kept it as is /\nrewrote it / used it as a starting point and changed most of it]. Everything else is mine.\nWorked examples:\nAI use: I used ChatGPT to help me brainstorm topics. I picked one from its list and wrote\nthe essay myself.\nAI use: I used Claude to check my code for errors. It found two bugs and I fixed them. I\nwrote the program.\nAI use: I used Gemini to draft an outline and then rewrote most of it, because the order it\nsuggested didn't work for my argument."
   },
   {
     "objectID": "resources/ai-disclosure.html#for-materials-you-made-with-ai",
     "href": "resources/ai-disclosure.html#for-materials-you-made-with-ai",
-    "title": "Resources",
+    "title": "AI Disclosure Statements",
     "section": "For materials you made with AI",
     "text": "For materials you made with AI\nThis is the one teachers skip, and it’s the one that carries the most weight. If you’re asking students to disclose, disclose.\nParts of this handout were drafted with AI assistance. I reviewed and edited everything\nhere, and I'm responsible for its accuracy.\nA fuller version, for anything going beyond your own classroom:\nAI contribution: [tool] was used to [draft / revise / generate examples / format]. All\ncontent was reviewed and edited by [name], who is responsible for its accuracy. AI was not\nused to [grade student work / make decisions about students / whatever your line is]."
   },
   {
     "objectID": "resources/ai-disclosure.html#a-note-on-the-detection-question",
     "href": "resources/ai-disclosure.html#a-note-on-the-detection-question",
-    "title": "Resources",
+    "title": "AI Disclosure Statements",
     "section": "A note on the detection question",
     "text": "A note on the detection question\nDon’t build your policy on AI detectors.\nThey produce false positives, those false positives don’t fall evenly (multilingual writers and students who write in a plain, formulaic style get flagged more often), and a student accused on a detector score has almost no way to prove a negative. A policy that depends on detection puts you in the position of prosecuting a case you can’t actually make.\nPolicies that hold up are built on process instead: drafts, in-class writing, conversations about the work, and disclosure norms that make honesty the easy path.\nThis gets covered in more depth in Day 1, Session 3."
   },
   {
     "objectID": "resources/ai-disclosure.html#adapting-these",
     "href": "resources/ai-disclosure.html#adapting-these",
-    "title": "Resources",
+    "title": "AI Disclosure Statements",
     "section": "Adapting these",
     "text": "Adapting these\nThree things to check before you use any of the above.\nYour district or school may already have a policy, and it outranks anything here. Check first.\nSay why, not just what. “Don’t use AI” gets ignored. “Don’t use AI, because this assignment exists to build a skill you can’t get any other way” gets followed more often.\nName the tools you mean. “Generative AI” is abstract to a fourteen-year-old. “ChatGPT, Gemini, Copilot, or anything like them” is not."
   },
   {
-    "objectID": "resources/ai-disclosure.html#clinic-in-a-box-and-the-cyberhub",
-    "href": "resources/ai-disclosure.html#clinic-in-a-box-and-the-cyberhub",
-    "title": "Resources",
-    "section": "Clinic-in-a-Box and the CyberHub",
-    "text": "Clinic-in-a-Box and the CyberHub\nCyberHub is the Cyber Saguaros’ platform at the University of Arizona, described on the site as “the official cybersecurity lab, cyber warfare range, and eLearning platform.” Four things live there: The Crucible, a capture-the-flag environment with isolated practice lanes and live scoring; CyberLabs, on-demand virtual environments for coursework and practice; The Forge, a malware analysis sandbox; and Clinic-in-a-Box.\nClinic-in-a-Box is what the Day 2 afternoon tabletop runs on — an AI-assisted training tool that walks a team through a cyber risk assessment against a mock client. If you want to run that exercise again with your own students, this is where it lives.\nAccess requires an account. Whether that extends to educators outside the University of Arizona is a question for Paul Wagner rather than something this page can promise."
+    "objectID": "resources/ai-disclosure.html#this-page-disclosed",
+    "href": "resources/ai-disclosure.html#this-page-disclosed",
+    "title": "AI Disclosure Statements",
+    "section": "This page, disclosed",
+    "text": "This page, disclosed\nPracticing what the sections above ask for. This page and the rest of this site were drafted with AI assistance (Claude). Ryan Straight set the structure, supplied the source agenda, directed the writing, and reviewed and edited all of it. He’s responsible for its accuracy. AI was not used to make any decision about a participant, and it isn’t used anywhere in the workshop’s research component.\nRelated: the Educator Resource Guide collects curriculum, hands-on environments, competitions, and the workforce frameworks."
   },
   {
-    "objectID": "resources/ai-disclosure.html#curriculum-you-can-take-and-use",
-    "href": "resources/ai-disclosure.html#curriculum-you-can-take-and-use",
-    "title": "Resources",
+    "objectID": "resources/educator-resources.html",
+    "href": "resources/educator-resources.html",
+    "title": "Educator Resource Guide",
+    "section": "",
+    "text": "Everything here is free or free to try, already exists, and was built for people in your position. None of it requires a purchase order.\nThe sections answer different questions. Where do I get material I don’t have time to write? Where do students actually put their hands on something? What do I point the interested ones at? And when an administrator asks what standard this maps to, what do I say?"
+  },
+  {
+    "objectID": "resources/educator-resources.html#curriculum-you-can-take-and-use",
+    "href": "resources/educator-resources.html#curriculum-you-can-take-and-use",
+    "title": "Educator Resource Guide",
     "section": "Curriculum you can take and use",
-    "text": "Curriculum you can take and use\nWriting a unit from nothing is the slowest way to teach cybersecurity. Both of these exist so you don’t have to.\nCLARK Center is a library of cybersecurity curriculum built by educators and reviewed before it goes in. You can search by topic, grade band, and the amount of class time you actually have. Lessons come with objectives and materials attached, so a unit that fits your week is a search rather than a build.\nCAE Resource Directory is the browsable index of what the CAE community has produced — labs, modules, outreach materials, competition prep. It is broader and less curated than CLARK, which makes it the better place to go when you know roughly what you want but not what it is called.\nSupplement to CSEC 2017, Foundational Cybersecurity Content and Instructional Guidance for Secondary and Postsecondary Cybersecurity Education (ACM, January 2025). The original CSEC 2017 guidelines were written for university degree programs. This supplement extends them to secondary education, which makes it the closest thing that exists to an authoritative answer to “what should a high school cybersecurity course actually cover?” You teach from CLARK; you cite this when someone asks you to justify what you chose to teach."
+    "text": "Curriculum you can take and use\nWriting a unit from nothing is the slowest way to teach cybersecurity.\nTeach Cyber is built specifically for secondary cybersecurity teachers, and it carries professional development alongside the curriculum. If you are teaching this for the first time, start here.\nCyber.org covers the full K-12 range and has a “Find Curricula” tool that filters to your grade band.\nCLARK Center is a reviewed digital library of cybersecurity curriculum, searchable by topic, grade band, and how much class time you actually have. Lessons arrive with objectives and materials attached, so you can search for something that fits your week instead of building it. CLARK4Kids is the younger-learner arm, with units like Online Gaming Safety and Password Pros.\nNCYTE, the National Cybersecurity Training and Education Center, is faculty-facing and skews toward the postsecondary end.\nRING is a free online cybersecurity course for students and educators.\nCodeHS runs a structured 6-12 cybersecurity sequence on its own platform, which suits a school already using CodeHS for CS.\nSupplement to CSEC 2017, Foundational Cybersecurity Content and Instructional Guidance for Secondary and Postsecondary Cybersecurity Education (ACM, January 2025). The original CSEC 2017 guidelines were written for university degree programs. This supplement extends them to secondary education, which makes it the closest thing that exists to an authoritative answer to “what should a high school cybersecurity course cover?” You teach from CLARK. You cite this when someone asks you to justify what you chose to teach."
   },
   {
-    "objectID": "resources/ai-disclosure.html#competitions-to-point-students-at",
-    "href": "resources/ai-disclosure.html#competitions-to-point-students-at",
-    "title": "Resources",
-    "section": "Competitions to point students at",
-    "text": "Competitions to point students at\nCompetitions do something a lesson can’t: they give a student a reason to keep going after the bell. All three run on their own calendars, so the thing to check first is when registration opens, not what the content is.\nCyberPatriot is the Air & Space Forces Association’s national youth cyber program, and it is the most K-12-native option here. Teams compete at defending virtual networks, and the program is built expecting a teacher-coach who is not a security professional.\nNational Cyber League runs individual and team competitions in a capture-the-flag format. It skews older than CyberPatriot — strongest fit for high school students who have already been bitten by this.\nSANS Holiday Hack Challenge is free, runs annually, and is deliberately approachable. It is the lowest-commitment way to find out which of your students light up when handed a real puzzle, because a student can try it alone over a break without you organizing anything."
+    "objectID": "resources/educator-resources.html#hands-on-environments",
+    "href": "resources/educator-resources.html#hands-on-environments",
+    "title": "Educator Resource Guide",
+    "section": "Hands-on environments",
+    "text": "Hands-on environments\nReading about a network and breaking one are different activities, and the second is what students remember.\nCyberHub is the Cyber Saguaros’ platform at the University of Arizona, described on the site as “the official cybersecurity lab, cyber warfare range, and eLearning platform.” Four things live there. The Crucible is a capture-the-flag environment with isolated practice lanes and live scoring. CyberLabs provides on-demand virtual environments for coursework and practice. The Forge is a malware analysis sandbox. And Clinic-in-a-Box is what the Day 2 afternoon tabletop runs on, an AI-assisted tool that walks a team through a cyber risk assessment against a mock client. If you want to run that exercise again with your own students, that is where it lives. Access requires an account, and whether that extends to educators outside the University of Arizona is a question for Paul Wagner.\nUS Cyber Range offers secure cloud-based environments for student practice.\nCyber Arena comes through the National Cybersecurity Teaching Academy. It was supplied without a link, so ask Paul Wagner for the access route.\nCSforAR, Domain 5 runs professional development on networking and cybersecurity, including building networks with Raspberry Pi computers. Arkansas-specific, and the one item on this page most likely to already have a person attached to it in your district."
   },
   {
-    "objectID": "resources/ai-disclosure.html#the-cae-community",
-    "href": "resources/ai-disclosure.html#the-cae-community",
-    "title": "Resources",
+    "objectID": "resources/educator-resources.html#competitions",
+    "href": "resources/educator-resources.html#competitions",
+    "title": "Educator Resource Guide",
+    "section": "Competitions",
+    "text": "Competitions\nCompetitions do something a lesson can’t: they give a student a reason to keep going after the bell. All three run on their own calendars, so check when registration opens before you look at anything else.\nCyberPatriot is the Air & Space Forces Association’s national youth cyber program and the most K-12-native option here. Teams compete to defend virtual networks, and the program is built for a teacher-coach who isn’t a security professional.\nNational Cyber League runs individual and team capture-the-flag competitions, pitched older than CyberPatriot.\nSANS Holiday Hack Challenge is free, annual, and deliberately approachable. A student can try it alone over a break without you organizing anything, which makes it a cheap way to find out which of your students light up when handed a real puzzle."
+  },
+  {
+    "objectID": "resources/educator-resources.html#ai-in-the-classroom",
+    "href": "resources/educator-resources.html#ai-in-the-classroom",
+    "title": "Educator Resource Guide",
+    "section": "AI in the classroom",
+    "text": "AI in the classroom\nMagicSchool is the teacher-facing tool used in these PD sessions for classifying data, exploring data pictures, and building out solutions.\nMachine Learning for Kids lets students build and break small models in a browser, on data they choose themselves. Good for showing the limits of a model rather than describing them.\nNC State AI Teaching Resources covers prompting basics for instructors.\nTurnitin: guiding responsible AI prompts.\nDatabricks: AI literacy.\nBoth of those last two are vendor-authored. Useful, and read them knowing who wrote them."
+  },
+  {
+    "objectID": "resources/educator-resources.html#careers-and-work-roles",
+    "href": "resources/educator-resources.html#careers-and-work-roles",
+    "title": "Educator Resource Guide",
+    "section": "Careers and work roles",
+    "text": "Careers and work roles\nIBM SkillsBuild has a student-facing catalog for exploring cybersecurity career paths.\nNICE Framework is the NIST National Initiative for Cybersecurity Education framework, published through CISA. It describes cybersecurity work as roles, tasks, knowledge, and skills, and it is the vocabulary most American funding and pathway documents are written in.\nDoD Cyber Workforce Framework is the Department of Defense’s own version. It matters if your students may head toward federal or defense-contractor work, and it does not line up cleanly with NICE.\nOne caution, because it will save you an argument later. These frameworks describe professional work at a level of detail K-12 standards do not, so a lesson does not cleanly “map to” a NICE work role no matter how much a form wants it to. Claim alignment where you can defend it and say so plainly where you can’t. A partial map you can defend will hold up. A complete one won’t survive the first person who checks it."
+  },
+  {
+    "objectID": "resources/educator-resources.html#the-cae-community",
+    "href": "resources/educator-resources.html#the-cae-community",
+    "title": "Educator Resource Guide",
     "section": "The CAE community",
-    "text": "The CAE community\nIf your school is anywhere near a cybersecurity pathway conversation, these are where the national infrastructure lives.\nCAE Community is the hub for the National Centers of Academic Excellence in Cybersecurity — professional development, working groups, and the people to ask. Membership costs nothing and is the fastest route to a colleague who has already solved your problem.\nNCAE-C Document Library holds the official designation documents and Knowledge Units. This is the primary source rather than a summary of one, which matters when a claim has to survive scrutiny."
+    "text": "The CAE community\nIf your school is anywhere near a cybersecurity pathway conversation, this is where the national infrastructure lives.\nCAE Community is the hub for the National Centers of Academic Excellence in Cybersecurity: professional development, working groups, and the people to ask. Membership costs nothing and it is the fastest route to a colleague who has already solved your problem.\nCAE Resource Directory indexes what that community has produced, including labs, modules, outreach materials, and competition prep. It is broader and less curated than CLARK, so go there when you know roughly what you want but not what it is called.\nNCAE-C Document Library holds the official designation documents and Knowledge Units. It is the primary source, which matters when a claim has to survive scrutiny."
   },
   {
-    "objectID": "resources/ai-disclosure.html#frameworks-when-someone-asks-what-this-maps-to",
-    "href": "resources/ai-disclosure.html#frameworks-when-someone-asks-what-this-maps-to",
-    "title": "Resources",
-    "section": "Frameworks, when someone asks what this maps to",
-    "text": "Frameworks, when someone asks what this maps to\nThese two are how the field describes cybersecurity work itself. You will meet them the moment a district, a grant, or a pathway proposal asks you to justify what you teach.\nNICE Framework — the NIST National Initiative for Cybersecurity Education framework, published through CISA. It describes cybersecurity work as roles, tasks, knowledge, and skills, and it is the vocabulary most funding and pathway documents in the United States are written in.\nDoD Cyber Workforce Framework is the Department of Defense’s own version. It matters where students may head toward federal or defense-contractor work, and it does not line up cleanly with NICE.\nOne caution worth carrying, because it will save you an argument. These frameworks describe professional work at a level of detail that K-12 standards do not, so a lesson does not cleanly “map to” a NICE work role no matter how much a form wants it to. Claim alignment where you can defend it and say so plainly where you can’t. A defensible partial map holds up; a tidy complete one falls apart the first time someone checks it."
+    "objectID": "resources/educator-resources.html#credits",
+    "href": "resources/educator-resources.html#credits",
+    "title": "Educator Resource Guide",
+    "section": "Credits",
+    "text": "Credits\nPaul Wagner and the workshop presenters supplied these links. Each was checked and described independently. Where a description could not be verified, it is not on this page.\nRelated: the AI disclosure statements page has policy and disclosure language you can lift for your own syllabus."
   },
   {
     "objectID": "sessions/day1-s3-ethics.html",
